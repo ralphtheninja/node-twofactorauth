@@ -1,6 +1,6 @@
 # twofactorauth
 
-Aggregates the `_data` folder in [twofactorauth](https://github.com/2factorauth/twofactorauth).
+Aggregates [`_data`](https://github.com/2factorauth/twofactorauth/tree/master/_data) in [twofactorauth](https://github.com/2factorauth/twofactorauth).
 
 ```
 $ npm i twofactorauth [-S|-g]
