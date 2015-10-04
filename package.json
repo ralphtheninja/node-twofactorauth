@@ -1,6 +1,6 @@
 {
   "name": "twofactorauth",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tool for exposing the _data folder from https://github.com/2factorauth/twofactorauth",
   "main": "index.js",
   "files": [
@@ -33,7 +33,9 @@
   },
   "author": "LM <ralphtheninja@riseup.net>",
   "keywords": [
-    "2fa", "JSON", "meta data"
+    "2fa",
+    "JSON",
+    "meta data"
   ],
   "license": "MIT"
 }
