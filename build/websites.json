@@ -1,0 +1,4836 @@
+[
+  {
+    "name": "AeroFS",
+    "url": "https://www.aerofs.com/",
+    "tfa": "Yes",
+    "software": "Yes",
+    "img": "aerofs.png",
+    "doc": "https://blog.aerofs.com/two-factor-authentication-for-hybrid-and-private-cloud/",
+    "category": "backup"
+  },
+  {
+    "name": "Apple iCloud",
+    "url": "https://www.icloud.com",
+    "img": "icloud.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "See http://support.apple.com/kb/HT5593 for a list of supported SMS carriers."
+    },
+    "doc": "http://support.apple.com/kb/ht5570",
+    "category": "backup"
+  },
+  {
+    "name": "Backblaze",
+    "url": "http://www.backblaze.com/",
+    "twitter": "backblaze",
+    "img": "backblaze.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://www.backblaze.com/blog/two-factor-verification-for-backblaze/",
+    "category": "backup"
+  },
+  {
+    "name": "Bitcasa",
+    "url": "http://www.bitcasa.com/",
+    "twitter": "Bitcasa",
+    "img": "bitcasa.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
+    "name": "Box",
+    "url": "https://app.box.com/",
+    "img": "box.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://support.box.com/hc/en-us/articles/200526658-Can-I-enable-2-step-verification-for-my-account-",
+    "category": "backup"
+  },
+  {
+    "name": "CloudApp",
+    "url": "http://www.getcloudapp.com/",
+    "twitter": "cloudapp",
+    "img": "cloudapp.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
+    "name": "Copy",
+    "url": "https://www.copy.com",
+    "twitter": "copy",
+    "img": "copy.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
+    "name": "CrashPlan",
+    "url": "http://www.crashplan.com",
+    "twitter": "crashplan",
+    "img": "crashplan.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
+    "name": "Dropbox",
+    "url": "https://www.dropbox.com",
+    "img": "dropbox.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.dropbox.com/help/363/en",
+    "category": "backup"
+  },
+  {
+    "name": "Evernote",
+    "url": "https://evernote.com",
+    "img": "evernote.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://blog.evernote.com/blog/2013/10/04/two-step-verification-available-to-all-users/",
+    "category": "backup"
+  },
+  {
+    "name": "Frostbox",
+    "url": "http://frostbox.com",
+    "img": "frostbox.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://app.frostbox.com/main.php?action=2fa",
+    "category": "backup"
+  },
+  {
+    "name": "Google Drive",
+    "url": "https://drive.google.com",
+    "img": "drive.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.google.com/intl/en-US/landing/2step/features.html",
+    "category": "backup"
+  },
+  {
+    "name": "IDrive",
+    "url": "https://www.idrive.com",
+    "twitter": "IDriveBackup",
+    "img": "idrive.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
+    "name": "JustCloud",
+    "url": "https://www.justcloud.com",
+    "twitter": "justcloudcom",
+    "img": "justcloud.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
+    "name": "Mega",
+    "url": "https://mega.co.nz/",
+    "twitter": "MEGAprivacy",
+    "img": "mega.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
+    "name": "OneDrive",
+    "url": "https://onedrive.live.com",
+    "img": "onedrive.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://windows.microsoft.com/en-us/windows/two-step-verification-faq",
+    "category": "backup"
+  },
+  {
+    "name": "Pogoplug",
+    "url": "https://pogoplug.com/",
+    "twitter": "pogoplug",
+    "img": "pogoplug.png",
+    "tfa": "No",
+    "status": "https://twitter.com/pogoplug/status/486192568745476096",
+    "category": "backup"
+  },
+  {
+    "name": "Revert",
+    "url": "https://revert.io",
+    "img": "revert.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://revert.io/blog/how-to-enable-two-factor-authentication/",
+    "category": "backup"
+  },
+  {
+    "name": "SmartBox",
+    "url": "https://www.panterranetworks.com/smartbox/smartbox_overview.php",
+    "img": "smartbox.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "https://www.panterranetworks.com/smartbox/sb_features/sbf_security.php",
+    "category": "backup"
+  },
+  {
+    "name": "SpiderOak",
+    "url": "https://spideroak.com",
+    "twitter": "spideroak",
+    "img": "spideroak.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
+    "name": "SugarSync",
+    "twitter": "SugarSync",
+    "url": "https://www.sugarsync.com/",
+    "img": "sugarsync.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
+    "name": "Synology",
+    "url": "https://www.synology.com/",
+    "twitter": "Synology",
+    "img": "synology.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "email": "Yes",
+    "doc": "https://originwww.synology.com/en-us/knowledgebase/tutorials/615#t5",
+    "category": "backup"
+  },
+  {
+    "name": "Tresorit",
+    "url": "https://tresorit.com/",
+    "img": "tresorit.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "email": "Yes",
+    "doc": "https://support.tresorit.com/entries/104192996-How-to-set-up-two-step-verification",
+    "category": "backup"
+  },
+  {
+    "name": "Yandex.Disk",
+    "url": "https://disk.yandex.com",
+    "img": "yandexdisk.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "SMS-capable phone required for initial setup."
+    },
+    "doc": "https://yandex.com/support/passport/authorization/twofa.xml",
+    "category": "backup"
+  },
+  {
+    "name": "Zetta.net",
+    "url": "http://zetta.net/",
+    "img": "zetta.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.zetta.net/blog/set-zetta-net-two-factor-authentication/",
+    "category": "backup"
+  },
+  {
+    "name": "Actors Federal Credit Union",
+    "url": "http://www.actorsfcu.com/",
+    "twitter": "ActorsFCU",
+    "img": "actorsfcu.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Ally Bank",
+    "url": "http://www.ally.com/",
+    "img": "allybank.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "doc": "http://www.ally.com/messages/sms/index.html",
+    "category": "banking"
+  },
+  {
+    "name": "Altra Federal Credit Union",
+    "url": "https://www.altra.org/",
+    "twitter": "AltraCU",
+    "img": "altrafcu.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "American Express",
+    "url": "https://www.americanexpress.com/",
+    "twitter": "AmericanExpress",
+    "img": "americanexpress.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "America First Credit Union",
+    "url": "https://www.americafirst.com/",
+    "twitter": "AFCU",
+    "img": "americafirstcu.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Bank Central Asia (BCA)",
+    "url": "http://www.bca.co.id/en/individual/individual.jsp",
+    "img": "bankcentralasia.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.bca.co.id/en/individual/produk_dan_layanan/e-banking/klikbca/klikbca-keybca/klikbca-keybca.jsp",
+    "category": "banking"
+  },
+  {
+    "name": "Bank of America",
+    "url": "https://www.bankofamerica.com/",
+    "img": "bankofamerica.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.bankofamerica.com/privacy/online-mobile-banking-privacy/safepass.go",
+    "category": "banking"
+  },
+  {
+    "name": "Barclays",
+    "url": "http://www.barclays.co.uk/",
+    "img": "barclays.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "https://ask.barclays.co.uk/help/security/protection",
+    "category": "banking"
+  },
+  {
+    "name": "Barclays US",
+    "url": "https://www.banking.barclaysus.com/index.html",
+    "img": "barclays.png",
+    "tfa": "No",
+    "twitter": "Barclays",
+    "category": "banking"
+  },
+  {
+    "name": "BMO Harris Bank",
+    "url": "https://www.bmoharris.com/",
+    "twitter": "BMOHarrisBank",
+    "img": "bmoharris.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Boeing Employee Credit Union",
+    "url": "https://www.becu.org/",
+    "twitter": "BECU",
+    "img": "becu.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Capital One",
+    "url": "https://www.capitalone.com/",
+    "twitter": "CapitalOne",
+    "img": "capitalone.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Capital One 360",
+    "url": "https://home.capitalone360.com/",
+    "twitter": "CapitalOne360",
+    "img": "capitalone360.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "CDC Federal Credit Union",
+    "url": "https://www.cdcfcu.com",
+    "twitter": "CDCCreditUnion",
+    "img": "cdcfcu.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Chase",
+    "url": "https://www.chase.com/",
+    "img": "chase.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "email": "Yes",
+    "doc": "/notes/chase/",
+    "category": "banking"
+  },
+  {
+    "name": "CIBC",
+    "url": "http://www.cibc.ca",
+    "twitter": "cibc",
+    "img": "cibc.png",
+    "tfa": "No",
+    "status": "https://www.cibc.com/ca/features/banking-enhancements.html?sf3204759=1",
+    "category": "banking"
+  },
+  {
+    "name": "Citibank",
+    "url": "https://online.citibank.com/US/Welcome.c",
+    "twitter": "Citibank",
+    "img": "citibank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Discover",
+    "url": "https://www.discover.com/",
+    "img": "discover.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "phone": "Yes",
+    "exceptions": {
+      "text": "Available only for credit cards, not for savings accounts. By providing your phone number, you are automatically opted in."
+    },
+    "doc": "https://www.discover.com/credit-cards/help-center/faqs/enhancing-account-security.html",
+    "category": "banking"
+  },
+  {
+    "name": "everbank.com",
+    "url": "https://everbank.com",
+    "twitter": "everbank",
+    "img": "everbank.png",
+    "tfa": "Yes",
+    "phone": "Yes",
+    "sms": "Yes",
+    "category": "banking"
+  },
+  {
+    "name": "Fairwinds",
+    "url": "https://www.fairwinds.org",
+    "img": "fairwinds.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "phone": "Yes",
+    "doc": "https://www.fairwinds.org/inside/privacy/security_we.asp#multifactor-auth",
+    "category": "banking"
+  },
+  {
+    "name": "Fifth Third Bank",
+    "url": "https://www.53.com/",
+    "twitter": "fifththird",
+    "img": "fifththird.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "First Tech Federal Credit Union",
+    "url": "https://www.firsttechfed.com/",
+    "img": "firsttechfcu.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "https://www.firsttechfed.com/OnlineServices/bankonlinesecurely/SecurityKey",
+    "category": "banking"
+  },
+  {
+    "name": "GE Capital Bank",
+    "url": "https://www.gecapitalbank.com",
+    "twitter": "GECapital",
+    "img": "GECapitalBank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Halifax",
+    "url": "http://www.halifax.co.uk",
+    "twitter": "AskHalifaxBank",
+    "img": "halifax.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "HSBC",
+    "url": "https://www.hsbc.com",
+    "img": "hsbc.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "https://www.hsbc.co.uk/1/2/customer-support/online-banking-security/secure-key",
+    "category": "banking"
+  },
+  {
+    "name": "Intesa Sanpaolo",
+    "url": "https://www.intesasanpaolo.com",
+    "img": "intesasanpaolo.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.intesasanpaolo.com/servizi-multicanale/sicurezza.jsp",
+    "category": "banking"
+  },
+  {
+    "name": "LendingClub",
+    "url": "https://www.lendingclub.com/",
+    "twitter": "lendingclub",
+    "img": "lendingclub.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Lloyds Bank",
+    "url": "http://www.lloydsbank.com/",
+    "twitter": "AskLloydsBank",
+    "img": "lloydsbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "MandT Bank",
+    "url": "https://www.mtb.com/",
+    "img": "mtbank.png",
+    "tfa": "No",
+    "twitter": "MandT_Help",
+    "category": "banking"
+  },
+  {
+    "name": "MBNA Canada",
+    "url": "http://www.mbna.ca",
+    "img": "mbnacanada.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Natwest UK",
+    "url": "https://www.natwest.com/personal.ashx",
+    "img": "natwest.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "twitter": "NatWest_Help",
+    "doc": "http://www.natwest.com/personal/online-banking/g1/banking-safely-online/card-reader.ashx",
+    "category": "banking"
+  },
+  {
+    "name": "Navy Federal Credit Union",
+    "url": "https://www.navyfederal.org/",
+    "img": "navyfederal.png",
+    "tfa": "No",
+    "twitter": "NavyFederal",
+    "category": "banking"
+  },
+  {
+    "name": "Pacific Continental",
+    "url": "https://www.therightbank.com/",
+    "img": "pcb.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "doc": "https://www.therightbank.com/sites/www.therightbank.com/files/files/online-services-instructions.pdf",
+    "category": "banking"
+  },
+  {
+    "name": "Patelco Credit Union",
+    "url": "https://www.patelco.org/",
+    "twitter": "PatelcoPays",
+    "img": "patelco.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "phone": "Yes",
+    "doc": "https://www.patelco.org/Privacy-Security/Protection",
+    "category": "banking"
+  },
+  {
+    "name": "PenFed",
+    "url": "https://www.penfed.org/",
+    "twitter": "PenFed",
+    "img": "penfed.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "PNC Bank",
+    "url": "https://www.pnc.com/",
+    "twitter": "pncnews",
+    "img": "pncbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Postbank",
+    "url": "https://www.postbank.com/",
+    "twitter": "postbank",
+    "img": "postbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Raiffeisen Bank CZ",
+    "url": "http://www.rb.cz/",
+    "img": "raiffeisenbank_cz.png",
+    "doc": "http://www.rb.cz/firemni-finance/podnikatele-a-male-firmy/prime-bankovnictvi/sluzby-pro-firemni-ucty/bezpecnost-internetoveho-bankovnictvi/",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "category": "banking"
+  },
+  {
+    "name": "RBC Royal Bank",
+    "url": "http://www.rbcroyalbank.com",
+    "twitter": "RBC_Canada",
+    "img": "rbc.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "San Diego County Credit Union",
+    "url": "https://www.sdccu.com",
+    "twitter": "sdccu",
+    "img": "sdccu.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "San Francisco Fire Credit Union",
+    "url": "https://www.sffirecu.org",
+    "twitter": "SFFireCU",
+    "img": "sffirecu.png",
+    "tfa": "No",
+    "status": "https://twitter.com/sffirecu/status/577532435228991488",
+    "category": "banking"
+  },
+  {
+    "name": "Santa Clara County Federal Credit Union",
+    "url": "https://www.sccfcu.org/",
+    "twitter": "SCCFCU",
+    "img": "sccfcu.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "SEB",
+    "url": "http://www.seb.se/pow/default.asp",
+    "img": "seb.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.seb.se/pow/wcp/index.asp?ss=/pow/wcp/templates/sebcollection.cfmc.asp%3FDUID%3DDUID_623697DCF55C4576C1256DEF00637BE3",
+    "category": "banking"
+  },
+  {
+    "name": "Simple",
+    "url": "https://www.simple.com/",
+    "twitter": "simple",
+    "img": "simple.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "SunTrust",
+    "url": "https://www.suntrust.com/",
+    "twitter": "SunTrust",
+    "img": "suntrust.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Swedbank",
+    "url": "https://www.swedbank.se/",
+    "img": "swedbank.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "http://hjalp.swedbank.se/logga-in/index.htm",
+    "category": "banking"
+  },
+  {
+    "name": "Tangerine",
+    "url": "http://www.tangerine.ca/",
+    "twitter": "tangerinebank",
+    "img": "tangerine.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "TARGOBANK",
+    "url": "https://www.targobank.de/",
+    "img": "targobank.png",
+    "tfa": "No",
+    "twitter": "TARGOBANK",
+    "category": "banking"
+  },
+  {
+    "name": "TBC Bank",
+    "url": "http://www.tbcbank.ge",
+    "twitter": "JSCTBCBANK",
+    "img": "tbcbank.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://old.tbcbank.ge/en/private/banking/tbc_digipass/",
+    "category": "banking"
+  },
+  {
+    "name": "TD Bank",
+    "url": "https://www.tdbank.com",
+    "twitter": "TDBank_US",
+    "img": "tdbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "TD Canada Trust",
+    "url": "https://www.tdcanadatrust.com",
+    "twitter": "TD_Canada",
+    "img": "tdbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "US Bank",
+    "url": "https://www.usbank.com/",
+    "twitter": "usbank",
+    "img": "usbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "USAA",
+    "url": "https://www.usaa.com/",
+    "img": "usaa.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "https://www.usaa.com/inet/pages/security_token_logon_options",
+    "category": "banking"
+  },
+  {
+    "name": "UW Credit Union",
+    "url": "http://www.uwcu.org/",
+    "img": "uwcu.png",
+    "twitter": "uwcu",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "phone": "Yes",
+    "doc": "http://www.uwcu.org/OnlineBanking/OnlineSecurity/VerifyU.aspx",
+    "category": "banking"
+  },
+  {
+    "name": "Wells Fargo",
+    "url": "https://www.wellsfargo.com/",
+    "twitter": "WellsFargo",
+    "img": "wellsfargo.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Zag Bank",
+    "url": "https://www.zagbank.ca/",
+    "twitter": "zagbank",
+    "img": "zagbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "ZenBanx",
+    "url": "http://zenbanx.ca/",
+    "twitter": "ZenBanx",
+    "img": "zenbanx.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "BitBay",
+    "url": "http://bitbay.net",
+    "img": "bitbay.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://www.youtube.com/watch?v=KFvoNHgl9Pw",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Bitcoin.de",
+    "url": "https://bitcoin.de",
+    "img": "bitcoinde.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.bitcoin.de/de/faq/was-ist-die-2-step-verification-2-faktor-authentifizierung/46.html",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Bitcoin-Central",
+    "url": "https://bitcoin-central.net",
+    "img": "bitcoincentral.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://bitcoin-central.net/page/profile/security",
+    "category": "bitcoin"
+  },
+  {
+    "name": "BitGo",
+    "url": "https://www.bitgo.com",
+    "img": "bitgo.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://bitgo.zendesk.com/hc/en-us/sections/201009049-Two-Factor-Authentication-Help-Page",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Bitpay",
+    "url": "https://bitpay.com",
+    "img": "bitpay.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://bitpay.com/two-factor",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Bitreserve",
+    "url": "https://bitreserve.org",
+    "img": "bitreserve.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://support.bitreserve.org/hc/en-us/articles/202409609-How-does-phone-number-verification-work-",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Bitstamp",
+    "url": "https://bitstamp.net",
+    "img": "bitstamp.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.bitstamp.net/s/documents/bitstamp_2_factor_authentication_guide.pdf",
+    "category": "bitcoin"
+  },
+  {
+    "name": "BTC-E",
+    "url": "https://btc-e.com",
+    "img": "btc-e.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://support.btc-e.com/index.php?/Knowledgebase/Article/View/97/25/how-do-i-set-2-factor-authentication-to-my-btc-e-account",
+    "category": "bitcoin"
+  },
+  {
+    "name": "BTCJam",
+    "url": "https://www.btcjam.com",
+    "img": "btcjam.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://help.btcjam.com/customer/portal/articles/1987686",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Blockchain",
+    "url": "https://blockchain.info/",
+    "img": "blockchain.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://blockchain.info/wallet/support-pages",
+    "category": "bitcoin"
+  },
+  {
+    "name": "CampBX",
+    "url": "https://campbx.com/",
+    "twitter": "CampBX",
+    "img": "campbx.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://campbx.com/faq.php#security-compliance",
+    "category": "bitcoin"
+  },
+  {
+    "name": "CEX.IO",
+    "url": "https://cex.io/",
+    "img": "cex.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://cex.io/guide#4",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Circle",
+    "url": "https://circle.com",
+    "twitter": "circlebits",
+    "img": "circle.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://support.circle.com/hc/en-us/articles/204624600-What-is-two-factor-authentication-2FA-",
+    "category": "bitcoin"
+  },
+  {
+    "name": "CleverCoin",
+    "url": "https://clevercoin.com",
+    "img": "clevercoin.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Coinapult",
+    "url": "https://coinapult.com",
+    "img": "coinapult.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://coinapult.com/faq",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Coinbase",
+    "url": "https://coinbase.com/",
+    "img": "coinbase.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "phone": "Yes",
+    "doc": "http://blog.coinbase.com/post/25677574019/coinbase-now-offers-two-factor-authentication",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Coincafe",
+    "url": "https://coincafe.com",
+    "img": "coincafe.png",
+    "tfa": "No",
+    "twitter": "getcoincafe",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Coinify (Merchants)",
+    "url": "https://coinify.com/merchants",
+    "img": "coinify.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "exceptions": {
+      "text": "While Coinify has aquired BIPS to allow for trading, only merchant accounts support TFA at this time. Trading is done through a separate account. Hardware support is limited to a print-out character matrix."
+    },
+    "category": "bitcoin"
+  },
+  {
+    "name": "Coinjar",
+    "url": "https://coinjar.com",
+    "img": "coinjar.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "sms": "Yes",
+    "doc": "https://support.coinjar.com/kb/using-coinjar/keeping-your-coinjar-secure-with-multi-factor-authentication",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Coinkite",
+    "url": "https://coinkite.com",
+    "img": "coinkite.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://coinkite.com/settings/pws",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Coinsetter",
+    "url": "https://www.coinsetter.com",
+    "img": "coinsetter.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.coinsetter.com/my/security",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Coins.ph",
+    "url": "https://coins.ph/",
+    "img": "coinsph.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://coinsph.zendesk.com/hc/en-us/sections/200557900-Two-factor-authentication",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Cryptsy",
+    "url": "https://cryptsy.com/",
+    "img": "cryptsy.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.cryptsy.com/pages/security",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Eclipse Mining Consortium",
+    "url": "https://eclipsemc.com",
+    "img": "eclipsemc.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://eclipsemc.com/single-news.php?id=20",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Justcoin Exchange",
+    "url": "https://justcoin.com/",
+    "img": "justcoinexchange.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://twitter.com/jstcoin/status/445900548743897088",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Kraken",
+    "url": "https://www.kraken.com/",
+    "img": "kraken.png",
+    "doc": "https://www.kraken.com/security/practices#two-factor-authentication",
+    "tfa": "Yes",
+    "software": "Yes",
+    "category": "bitcoin"
+  },
+  {
+    "name": "LocalBitcoins",
+    "url": "https://localbitcoins.com/",
+    "img": "localbitcoins.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://localbitcoins.blogspot.fi/2013/05/using-two-factor-authentication-on.html",
+    "category": "bitcoin"
+  },
+  {
+    "name": "WeMineLTC.com",
+    "url": "https://www.wemineltc.com",
+    "img": "wemineltc.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://twitter.com/jstcoin/status/445900548743897088",
+    "category": "bitcoin"
+  },
+  {
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com",
+    "img": "aws.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://aws.amazon.com/iam/details/mfa/",
+    "category": "cloud"
+  },
+  {
+    "name": "appFog",
+    "url": "https://www.appfog.com/",
+    "twitter": "appfog",
+    "img": "appfog.png",
+    "tfa": "No",
+    "category": "cloud"
+  },
+  {
+    "name": "cloud.ca",
+    "url": "https://cloud.ca",
+    "img": "cloudca.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://cloud.ca/two-factor-authentication-is-now-available-on-cloud-ca/",
+    "category": "cloud"
+  },
+  {
+    "name": "Cloud 66",
+    "url": "http://www.cloud66.com",
+    "img": "cloud66.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://blog.cloud66.com/two-factor-authentication-for-your-accounts/",
+    "category": "cloud"
+  },
+  {
+    "name": "Datapipe",
+    "url": "https://www.datapipe.com/",
+    "img": "datapipe.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.datapipe.com/security_compliance/managed_security/two_factor_authentication/",
+    "twitter": "Datapipe",
+    "category": "cloud"
+  },
+  {
+    "name": "DigitalOcean",
+    "url": "https://www.digitalocean.com/",
+    "img": "digitalocean.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "SMS-capable phone required."
+    },
+    "doc": "https://www.digitalocean.com/company/blog/introducing-two-factor-authentication/",
+    "category": "cloud"
+  },
+  {
+    "name": "EngineYard",
+    "url": "https://www.engineyard.com",
+    "twitter": "engineyard",
+    "img": "engineyard.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "Currently in beta as of June 5th 2014. Create a support ticket to request 2FA added to your organization"
+    },
+    "doc": "https://support.cloud.engineyard.com/entries/40538256-Two-factor-authentication",
+    "category": "cloud"
+  },
+  {
+    "name": "fortrabbit",
+    "url": "http://www.fortrabbit.com/",
+    "twitter": "fortrabbit",
+    "img": "fortrabbit.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://help.fortrabbit.com/security#toc-two-factor-authentication",
+    "category": "cloud"
+  },
+  {
+    "name": "Google Cloud Platform",
+    "url": "https://cloud.google.com",
+    "img": "googlecloud.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "phone": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.google.com/intl/en-US/landing/2step/features.html",
+    "category": "cloud"
+  },
+  {
+    "name": "Heroku",
+    "url": "https://www.heroku.com/",
+    "twitter": "heroku",
+    "img": "heroku.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://devcenter.heroku.com/articles/two-factor-authentication",
+    "category": "cloud"
+  },
+  {
+    "name": "HP Cloud",
+    "url": "https://www.hpcloud.com/",
+    "twitter": "hpcloud",
+    "img": "hp.png",
+    "tfa": "No",
+    "category": "cloud"
+  },
+  {
+    "name": "Joyent",
+    "url": "http://www.joyent.com/",
+    "img": "joyent.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://docs.joyent.com/public-cloud/getting-started/2fa",
+    "category": "cloud"
+  },
+  {
+    "name": "Linode",
+    "url": "https://www.linode.com/",
+    "img": "linode.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.linode.com/docs/security/linode-manager-security-controls",
+    "category": "cloud"
+  },
+  {
+    "name": "Microsoft Azure",
+    "url": "http://azure.microsoft.com/",
+    "img": "microsoftazure.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "doc": "http://msdn.microsoft.com/en-us/library/azure/dn249471.aspx",
+    "category": "cloud"
+  },
+  {
+    "name": "OpenShift",
+    "url": "https://www.openshift.com/",
+    "twitter": "openshift",
+    "img": "openshift.png",
+    "tfa": "No",
+    "category": "cloud"
+  },
+  {
+    "name": "Packet",
+    "url": "https://www.packet.net/",
+    "twitter": "packethost",
+    "img": "packet.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://www.packet.net/help/kb/account-management-and-billing/how-do-i-enable-two-factor-authentication-/",
+    "category": "cloud"
+  },
+  {
+    "name": "Rackspace",
+    "url": "https://www.rackspace.com/",
+    "img": "rackspace.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://www.rackspace.com/knowledge_center/article/multi-factor-authentication-from-the-cloud-control-panel",
+    "category": "cloud"
+  },
+  {
+    "name": "RightScale",
+    "url": "http://www.rightscale.com/",
+    "img": "rightscale.png",
+    "tfa": "No",
+    "twitter": "RightScale",
+    "category": "cloud"
+  },
+  {
+    "name": "Scalr",
+    "url": "http://www.scalr.com",
+    "img": "scalr.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://scalr-wiki.atlassian.net/wiki/display/docs/Two-Factor+Authentication",
+    "category": "cloud"
+  },
+  {
+    "name": "SingleHop",
+    "url": "http://www.singlehop.com",
+    "img": "singlehop.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://library.singlehop.com/assets_project_development/Two_Factor_Instructions.pdf",
+    "category": "cloud"
+  },
+  {
+    "name": "Tilaa",
+    "url": "https://www.tilaa.com",
+    "img": "tilaa.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "exceptions": {
+      "text": "SMS-capable phone required."
+    },
+    "doc": "http://blog.tilaa.com/post/128110588046/two-factor-authentication-and-session-management",
+    "category": "cloud"
+  },
+  {
+    "name": "Userify",
+    "url": "https://userify.com",
+    "twitter": "userify",
+    "img": "userify.png",
+    "tfa": "No",
+    "status": "https://twitter.com/userify/status/574247002482978816",
+    "category": "cloud"
+  },
+  {
+    "name": "Basecamp",
+    "url": "https://basecamp.com/",
+    "img": "basecamp.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://basecamp.com/help/guides/you/phone-verification",
+    "category": "communication"
+  },
+  {
+    "name": "Campfire",
+    "url": "https://campfirenow.com/",
+    "img": "campfire.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://help.37signals.com/sign-in/questions/460-how-do-i-set-up-and-use-phone-verification-for-logging-in",
+    "category": "communication"
+  },
+  {
+    "name": "Customer.io",
+    "url": "http://customer.io",
+    "twitter": "customerio",
+    "img": "customerio.png",
+    "tfa": "No",
+    "category": "communication"
+  },
+  {
+    "name": "Disqus",
+    "url": "https://disqus.com",
+    "twitter": "disqus",
+    "img": "disqus.png",
+    "tfa": "No",
+    "category": "communication"
+  },
+  {
+    "name": "Fleep",
+    "url": "https://fleep.io",
+    "twitter": "fleepio",
+    "img": "fleep.png",
+    "tfa": "No",
+    "category": "communication"
+  },
+  {
+    "name": "HipChat",
+    "url": "https://www.hipchat.com",
+    "twitter": "HipChat",
+    "img": "hipchat.png",
+    "tfa": "No",
+    "status": "https://twitter.com/HipChat/status/540216532564213760",
+    "category": "communication"
+  },
+  {
+    "name": "Mailchimp",
+    "url": "https://mailchimp.com/",
+    "img": "mailchimp.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://blog.mailchimp.com/alterego-integrations-for-easy-authentication/",
+    "category": "communication"
+  },
+  {
+    "name": "Mailgun",
+    "url": "https://mailgun.com",
+    "twitter": "Mail_Gun",
+    "img": "mailgun.png",
+    "tfa": "No",
+    "category": "communication"
+  },
+  {
+    "name": "Maxemail",
+    "url": "https://maxemail.emailcenteruk.com/",
+    "img": "maxemail.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.emailcenteruk.com/software/security-collaboration-2/",
+    "category": "communication"
+  },
+  {
+    "name": "Peerio",
+    "url": "https://peerio.com",
+    "img": "peerio.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://peerio.zendesk.com/hc/en-us/articles/202933829-How-do-I-setup-two-factor-authentication-",
+    "category": "communication"
+  },
+  {
+    "name": "Salesforce",
+    "url": "http://www.salesforce.com",
+    "img": "salesforce.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "email": "Yes",
+    "doc": "https://help.salesforce.com/HTViewHelpDoc?id=security_require_two_factor_authentication.htm",
+    "category": "communication"
+  },
+  {
+    "name": "SendGrid",
+    "url": "https://sendgrid.com/",
+    "img": "sendgrid.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://sendgrid.com/docs/User_Guide/two_factor_authentication.html",
+    "category": "communication"
+  },
+  {
+    "name": "Sendloop",
+    "url": "http://app.sendloop.com",
+    "img": "sendloop.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://app.sendloop.com/help/article/account-003/how-can-i-make-my-account-more-secure",
+    "category": "communication"
+  },
+  {
+    "name": "Skype (via Microsoft Account)",
+    "url": "https://www.skype.com",
+    "img": "skype.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://windows.microsoft.com/en-au/windows/two-step-verification-faq",
+    "exceptions": {
+      "text": "Two-factor authentication is available only when logging in using Microsoft Account, not Skype's stand-alone account."
+    },
+    "category": "communication"
+  },
+  {
+    "name": "Slack",
+    "url": "https://slack.com/",
+    "img": "slack.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://slack.zendesk.com/hc/en-us/articles/204509068-Enabling-two-factor-authentication",
+    "category": "communication"
+  },
+  {
+    "name": "SocketLabs",
+    "url": "https://socketlabs.com/",
+    "img": "socketlabs.png",
+    "sms": "Yes",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://support.socketlabs.com/kb/145",
+    "category": "communication"
+  },
+  {
+    "name": "SparkPost",
+    "url": "https://sparkpost.com/",
+    "img": "sparkpost.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://support.sparkpost.com/customer/portal/articles/1948449",
+    "category": "communication"
+  },
+  {
+    "name": "Telegram",
+    "url": "https://telegram.org/",
+    "twitter": "telegram",
+    "img": "telegram.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "doc": "https://telegram.org/blog/sessions-and-2-step-verification",
+    "category": "communication"
+  },
+  {
+    "name": "ToutApp",
+    "url": "http://www1.toutapp.com/",
+    "twitter": "toutapp",
+    "img": "toutapp.png",
+    "tfa": "No",
+    "category": "communication"
+  },
+  {
+    "name": "WhatsApp",
+    "url": "https://www.whatsapp.com/",
+    "twitter": "whatsapp",
+    "img": "whatsapp.png",
+    "tfa": "No",
+    "category": "communication"
+  },
+  {
+    "name": "Yammer",
+    "url": "https://yammer.com",
+    "twitter": "yammer",
+    "img": "yammer.png",
+    "tfa": "No",
+    "category": "communication"
+  },
+  {
+    "name": "Aha!",
+    "url": "https://www.aha.io/",
+    "img": "aha.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "http://support.aha.io/hc/en-us/articles/202000957-Add-two-factor-authentication-2FA-",
+    "category": "developer"
+  },
+  {
+    "name": "Airbrake",
+    "url": "https://airbrake.io",
+    "twitter": "airbrake",
+    "img": "airbrake.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "aTech Media",
+    "url": "https://atechmedia.com",
+    "img": "atechmedia.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://atechmedia.com/blog/general/launches/two-factor-authentication",
+    "category": "developer"
+  },
+  {
+    "name": "Balsamiq",
+    "url": "https://balsamiq.com",
+    "twitter": "balsamiq",
+    "img": "balsamiq.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "Bitbucket",
+    "url": "https://bitbucket.org",
+    "img": "bitbucket.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://confluence.atlassian.com/x/425QLg",
+    "category": "developer"
+  },
+  {
+    "name": "Cloud9",
+    "url": "https://c9.io",
+    "twitter": "Cloud9IDE",
+    "img": "cloud9.png",
+    "tfa": "No",
+    "doc": "https://docs.c9.io/faq_general.html#can-i-use-two-factor-authentication-with-cloud9?",
+    "exceptions": {
+      "text": "TFA available by signing up using GitHub"
+    },
+    "category": "developer"
+  },
+  {
+    "name": "Codeanywhere",
+    "url": "https://codeanywhere.com",
+    "img": "codeanywhere.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://blog.codeanywhere.com/codeanywhere-now-offers-two-factor-authentication/",
+    "exceptions": {
+      "text": "Only available on paid accounts at $7/10 per month (annual/monthly) or more."
+    },
+    "category": "developer"
+  },
+  {
+    "name": "Code Climate",
+    "url": "https://codeclimate.com",
+    "twitter": "codeclimate",
+    "img": "codeclimate.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://docs.codeclimate.com/article/228-enabling-disabling-two-factor-authentication",
+    "category": "developer"
+  },
+  {
+    "name": "Codeship",
+    "url": "https://codeship.io/",
+    "twitter": "codeship",
+    "img": "codeship.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "Compose.io",
+    "url": "https://www.compose.io/",
+    "img": "composeio.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://docs.compose.io/security/compose-two-factor-authentication.html",
+    "category": "developer"
+  },
+  {
+    "name": "Docker",
+    "url": "https://docker.com/",
+    "twitter": "docker",
+    "img": "docker.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "Esri",
+    "url": "https://www.esri.com",
+    "img": "esri.png",
+    "twitter": "esri",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://doc.arcgis.com/en/arcgis-online/reference/multifactor.htm",
+    "category": "developer"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "img": "github.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "https://help.github.com/articles/about-two-factor-authentication",
+    "category": "developer"
+  },
+  {
+    "name": "GitLab",
+    "url": "https://gitlab.com",
+    "img": "gitlab.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://doc.gitlab.com/ee/profile/two_factor_authentication.html",
+    "exceptions": {
+      "text": "Two factor authentication for LDAP is only avaliable in the Enterprise Edition."
+    },
+    "category": "developer"
+  },
+  {
+    "name": "Infobip",
+    "url": "http://www.infobip.com/",
+    "img": "infobip.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://www.infobip.com/messaging/enterprise/2_factor_authentication/",
+    "category": "developer"
+  },
+  {
+    "name": "Jidoteki",
+    "url": "https://jidoteki.com",
+    "img": "jidoteki.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://jidoteki.com/documentation#authentication",
+    "category": "developer"
+  },
+  {
+    "name": "Koding",
+    "url": "https://koding.com",
+    "twitter": "koding",
+    "img": "koding.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://learn.koding.com/guides/2-factor-auth/",
+    "category": "developer"
+  },
+  {
+    "name": "Launchpad",
+    "url": "https://launchpad.net",
+    "img": "launchpad.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://help.ubuntu.com/community/SSO/FAQs/2FA",
+    "category": "developer"
+  },
+  {
+    "name": "Looker",
+    "url": "http://looker.com/",
+    "img": "looker.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "sms": "No",
+    "phone": "No",
+    "doc": "http://www.looker.com/docs/admin/security/two-factor-authentication",
+    "category": "developer"
+  },
+  {
+    "name": "Mapbox",
+    "url": "https://www.mapbox.com",
+    "img": "mapbox.png",
+    "twitter": "mapbox",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.mapbox.com/help/two-step-verification/",
+    "category": "developer"
+  },
+  {
+    "name": "MongoDB MMS",
+    "url": "https://mms.mongodb.com",
+    "img": "mongodbmms.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "phone": "Yes",
+    "doc": "https://docs.mms.mongodb.com/core/two-factor-authentication/",
+    "category": "developer"
+  },
+  {
+    "name": "New Relic",
+    "url": "https://newrelic.com",
+    "twitter": "newrelic",
+    "img": "newrelic.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "Papertrail",
+    "url": "https://papertrailapp.com/",
+    "twitter": "papertrailapp",
+    "img": "papertrail.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "Pivotal Tracker",
+    "url": "https://www.pivotaltracker.com",
+    "twitter": "pivotaltracker",
+    "img": "pivotaltracker.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "PyPI",
+    "url": "https://pypi.python.org/",
+    "twitter": "pypi",
+    "img": "pypi.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "PythonAnywhere",
+    "url": "https://www.pythonanywhere.com",
+    "twitter": "pythonanywhere",
+    "img": "pythonanywhere.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "RBCommons",
+    "url": "https://rbcommons.com",
+    "img": "rbcommons.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://support.beanbaginc.com/support/solutions/articles/3000006998-enabling-two-factor-authentication",
+    "category": "developer"
+  },
+  {
+    "name": "SourceForge",
+    "url": "http://sourceforge.net/",
+    "twitter": "sourceforge",
+    "img": "sourceforge.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "Status.io",
+    "url": "https://status.io/",
+    "img": "statusio.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "doc": "http://blog.status.io/2014/03/01/yubikey/",
+    "category": "developer"
+  },
+  {
+    "name": "StatusCake",
+    "url": "https://statuscake.com/",
+    "img": "statuscake.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "category": "developer"
+  },
+  {
+    "name": "StatusPage.io",
+    "url": "https://www.statuspage.io",
+    "twitter": "statuspageio",
+    "img": "statuspageio.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "Twilio",
+    "url": "https://www.twilio.com/",
+    "img": "twilio.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://www.twilio.com/help/faq/twilio-basics/what-happens-when-i-enable-two-factor-authentication",
+    "category": "developer"
+  },
+  {
+    "name": "Unfuddle",
+    "url": "https://unfuddle.com/",
+    "twitter": "unfuddle",
+    "img": "unfuddle.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "doc": "https://unfuddle.com/blog/2014/07/140721-two-factor-authentication",
+    "category": "developer"
+  },
+  {
+    "name": "Visual Studio Online",
+    "url": "http://www.visualstudio.com/",
+    "img": "visualstudio.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://windows.microsoft.com/en-us/windows/two-step-verification-faq",
+    "category": "developer"
+  },
+  {
+    "name": "Zapier",
+    "url": "https://www.zapier.com",
+    "twitter": "zapier",
+    "img": "zapier.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "101domain",
+    "url": "https://101domain.com",
+    "img": "101domain.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.101domain.com/vip_security_card.htm",
+    "category": "domains"
+  },
+  {
+    "name": "1and1",
+    "url": "https://www.1and1.com/",
+    "img": "1and1.png",
+    "tfa": "No",
+    "twitter": "1and1",
+    "category": "domains"
+  },
+  {
+    "name": "Badger",
+    "url": "http://badger.com",
+    "img": "badger.png",
+    "tfa": "No",
+    "twitter": "badger",
+    "category": "domains"
+  },
+  {
+    "name": "CloudFlare",
+    "url": "https://cloudflare.com",
+    "img": "cloudflare.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://support.cloudflare.com/hc/en-us/articles/200167866-What-is-Authy-2-Factor-Authentication-",
+    "category": "domains"
+  },
+  {
+    "name": "ClouDNS",
+    "url": "https://www.cloudns.net/",
+    "img": "cloudns.png",
+    "tfa": "No",
+    "twitter": "ClouDNS",
+    "category": "domains"
+  },
+  {
+    "name": "Crazy Domains",
+    "url": "https://www.crazydomains.com",
+    "img": "crazydomains.png",
+    "tfa": "No",
+    "twitter": "CrazyDomains",
+    "category": "domains"
+  },
+  {
+    "name": "Directnic",
+    "url": "https://directnic.com",
+    "img": "directnic.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://directnic.com/knowledge/article/137:how+do+i+set+up+two-factor+authentication%3F",
+    "category": "domains"
+  },
+  {
+    "name": "DNS Made Easy",
+    "url": "http://www.dnsmadeeasy.com",
+    "img": "dnsmadeeasy.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.dnsmadeeasy.com/press-release/dns-made-easy-adds-two-factor-authentication-with-time-based-passwords/",
+    "category": "domains"
+  },
+  {
+    "name": "DNSimple",
+    "url": "https://dnsimple.com/",
+    "img": "dnsimple.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://blog.dnsimple.com/2012/08/protect-your-dnsimple-account-with-two-factor-authentication-from-authy/",
+    "category": "domains"
+  },
+  {
+    "name": "Domain.com",
+    "url": "http://www.domain.com/",
+    "twitter": "DomainDotCom",
+    "img": "domaindotcom.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "domainFACTORY",
+    "url": "http://www.df.eu",
+    "img": "domainfactory.png",
+    "twitter": "domainfactory",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "DomainsAtCost",
+    "url": "https://www.domainsatcost.ca/",
+    "twitter": "domainsatcost",
+    "img": "domainsatcost.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "Domeny.tv",
+    "url": "http://www.domeny.tv/en",
+    "img": "domenytv.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.domeny.tv/en/two-factor-authentication",
+    "category": "domains"
+  },
+  {
+    "name": "Dyn",
+    "url": "http://dyn.com/",
+    "img": "dyn.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "Currently only supported for the Managed DNS & Email Delivery platforms (via DynID). Eventually DynID (and 2FA) will be rolled out to all platforms (no ETA)."
+    },
+    "doc": "https://help.dyn.com/2-factor-authentication/",
+    "category": "domains"
+  },
+  {
+    "name": "Dynadot",
+    "url": "http://dynadot.com/",
+    "img": "dynadot.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "Only protects certain operations like password changes and domain transfers."
+    },
+    "doc": "http://dynadot.com/domain/security.html",
+    "category": "domains"
+  },
+  {
+    "name": "easyDNS",
+    "url": "https://easydns.com",
+    "img": "easydns.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://docs.easydns.com/2-factor-authentication/",
+    "category": "domains"
+  },
+  {
+    "name": "eNom",
+    "url": "http://enom.com/",
+    "img": "enom.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.enom.com/news/article.aspx?p=978&",
+    "category": "domains"
+  },
+  {
+    "name": "EuroDNS",
+    "url": "https://www.eurodns.com",
+    "img": "eurodns.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://help.eurodns.com/customer/en/portal/articles/1633106-how-do-i-activate-two-step-verification-on-my-account-",
+    "category": "domains"
+  },
+  {
+    "name": "Fabulous",
+    "url": "http://fabulous.com",
+    "img": "fabulous.png",
+    "tfa": "yes",
+    "hardware": "yes",
+    "doc": "http://fabulous.com/informationcenter/index.htm?formdata%5Bqid%5D=1194",
+    "category": "domains"
+  },
+  {
+    "name": "Fasthosts",
+    "url": "https://www.fasthosts.co.uk/",
+    "twitter": "Fasthosts",
+    "img": "fasthosts.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "Frankdomains",
+    "url": "https://www.frankdomains.com/",
+    "img": "frankdomains.png",
+    "tfa": "yes",
+    "hardware": "yes",
+    "exceptions": {
+      "text": "Yearly fee for using 2FA: 19.99 GBP"
+    },
+    "doc": "https://www.frankdomains.com/keep-your-domain-safe/",
+    "category": "domains"
+  },
+  {
+    "name": "Gandi",
+    "url": "https://gandi.net",
+    "img": "gandi.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://wiki.gandi.net/en/contacts/login/2-factor-activation",
+    "category": "domains"
+  },
+  {
+    "name": "GoDaddy",
+    "img": "godaddy.png",
+    "url": "http://www.godaddy.com/",
+    "tfa": "yes",
+    "sms": "Yes",
+    "doc": "https://www.godaddy.com/help/enabling-two-step-authentication-for-your-godaddy-account-7502",
+    "category": "domains"
+  },
+  {
+    "name": "Google Domains",
+    "url": "https://domains.google.com",
+    "img": "googledomains.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.google.com/intl/en-US/landing/2step/features.html",
+    "category": "domains"
+  },
+  {
+    "name": "Heart Internet",
+    "url": "https://www.heartinternet.uk/",
+    "img": "heartinternet.png",
+    "tfa": "No",
+    "twitter": "HeartInternet",
+    "category": "domains"
+  },
+  {
+    "name": "Hover.com",
+    "img": "hover.png",
+    "url": "http://www.hover.com/",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://help.hover.com/entries/26677644",
+    "category": "domains"
+  },
+  {
+    "name": "Hurricane Electric",
+    "url": "http://www.he.net/",
+    "img": "hurricane.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "twitter": "henet",
+    "category": "domains"
+  },
+  {
+    "name": "Internet.bs",
+    "url": "http://www.internet.bs",
+    "img": "internetbs.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "/notes/internetbs/",
+    "category": "domains"
+  },
+  {
+    "name": "InterNetworX (INWX)",
+    "url": "https://www.inwx.de/en/",
+    "img": "internetworx.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.inwx.de/en/offer/mobiletan",
+    "category": "domains"
+  },
+  {
+    "name": "iWantMyName",
+    "url": "https://iwantmyname.com/",
+    "img": "iwantmyname.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://help.iwantmyname.com/customer/portal/articles/1139898",
+    "category": "domains"
+  },
+  {
+    "name": "Loopia",
+    "url": "https://www.loopia.se/",
+    "img": "loopia.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://blogg.loopia.se/2015/03/16/nu-kan-du-logga-in-med-tvafaktorsautentiering-hos-loopia-genom-bankid/",
+    "exceptions": {
+      "text": "TFA only available for Swedish citizens"
+    },
+    "category": "domains"
+  },
+  {
+    "name": "MarkMonitor",
+    "url": "https://www.markmonitor.com",
+    "twitter": "markmonitor",
+    "img": "markmonitor.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "category": "domains"
+  },
+  {
+    "name": "Metaname",
+    "url": "http://metaname.net/",
+    "img": "metaname.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://metaname.net/public/two_factor_authentication",
+    "category": "domains"
+  },
+  {
+    "name": "Moniker",
+    "url": "http://www.moniker.com/",
+    "img": "moniker.png",
+    "tfa": "No",
+    "twitter": "monikersnap",
+    "category": "domains"
+  },
+  {
+    "name": "MyDomain",
+    "url": "http://www.mydomain.com/",
+    "twitter": "mydomaindotcom",
+    "img": "mydomain.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "Name.com",
+    "url": "http://www.name.com/",
+    "img": "namecom.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.name.com/services/two-step-verification",
+    "category": "domains"
+  },
+  {
+    "name": "Namecheap",
+    "url": "https://www.namecheap.com/",
+    "img": "namecheap.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "doc": "https://www.namecheap.com/support/knowledgebase/article.aspx/9253/45/how-to-two-factor-authentication",
+    "category": "domains"
+  },
+  {
+    "name": "NameSilo.com",
+    "url": "http://www.namesilo.com/",
+    "img": "namesilo.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.namesilo.com/Support/2~Factor-Authentication",
+    "category": "domains"
+  },
+  {
+    "name": "NamesPro.ca",
+    "url": "http://www.namespro.ca/",
+    "twitter": "namespro",
+    "img": "namespro.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "NearlyFreeSpeech.net",
+    "url": "https://www.nearlyfreespeech.net/",
+    "img": "nfsn.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://blog.nearlyfreespeech.net/2014/02/28/price-cuts-more-security-and-recovery-options/",
+    "category": "domains"
+  },
+  {
+    "name": "Netfirms",
+    "url": "https://www.netfirms.com",
+    "twitter": "netfirms",
+    "img": "netfirms.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "Netim",
+    "url": "http://www.netim.com/",
+    "twitter": "Netim_com",
+    "img": "netim.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "Network Solutions",
+    "url": "https://www.networksolutions.com/",
+    "twitter": "netsolcares",
+    "img": "networksolutions.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "Nominet",
+    "url": "http://www.nominet.uk/",
+    "img": "nominet.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://registrars.nominet.org.uk/sites/default/files/two_factor_authentication_userguide.pdf",
+    "category": "domains"
+  },
+  {
+    "name": "Openprovider",
+    "url": "https://www.openprovider.co.uk",
+    "img": "openprovider.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.openprovider.co.uk/about-openprovider/news/secure-your-account-with-two-factor-authentication",
+    "category": "domains"
+  },
+  {
+    "name": "OpenSRS",
+    "url": "https://opensrs.com",
+    "img": "opensrs.png",
+    "tfa": "No",
+    "twitter": "opensrs",
+    "category": "domains"
+  },
+  {
+    "name": "pairNIC",
+    "url": "https://www.pairnic.com/",
+    "img": "pairnic.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://www.pairnic.com/faq_security.html",
+    "category": "domains"
+  },
+  {
+    "name": "PointDNS",
+    "url": "https://pointhq.com/",
+    "twitter": "pointdns",
+    "img": "pointdns.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "Registro.br",
+    "url": "https://registro.br",
+    "img": "registrobr.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "https://registro.br/ajuda.html?secao=GerenciamentoConta&item=310",
+    "category": "domains"
+  },
+  {
+    "name": "Register4Less",
+    "url": "https://register4less.com/",
+    "twitter": "register4less",
+    "img": "register4less.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://blog.register4less.com/?p=43",
+    "category": "domains"
+  },
+  {
+    "name": "Verio",
+    "url": "https://www.verio.com/",
+    "twitter": "Verio",
+    "img": "verio.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "Academic Earth",
+    "url": "http://academicearth.org/",
+    "twitter": "academicearth",
+    "img": "academicearth.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
+    "name": "Clever",
+    "url": "https://www.clever.com",
+    "img": "clever.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://support.clever.com/hc/en-us/articles/202062333-Two-Factor-Authentication",
+    "category": "education"
+  },
+  {
+    "name": "Codecademy",
+    "url": "http://www.codecademy.com/",
+    "twitter": "codecademy",
+    "img": "codecademy.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
+    "name": "Coursera",
+    "url": "https://www.coursera.org/",
+    "twitter": "coursera",
+    "img": "coursera.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
+    "name": "Edmodo",
+    "url": "https://www.edmodo.com/",
+    "twitter": "edmodo",
+    "img": "edmodo.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
+    "name": "edX",
+    "url": "https://www.edx.org/",
+    "twitter": "edXOnline",
+    "img": "edx.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
+    "name": "Montclair State University",
+    "url": "http://www.montclair.edu/employee-services/",
+    "twitter": "montclairstateu",
+    "img": "montclair.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
+    "name": "Oplerno",
+    "url": "https://enroll.oplerno.com/",
+    "img": "oplerno.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "category": "education"
+  },
+  {
+    "name": "PushCoin",
+    "url": "https://pushcoin.com",
+    "img": "pushcoin.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "exceptions": {
+      "text": "U2F support only for school admin accounts. TFA for parent accounts is in progress."
+    },
+    "doc": "http://knowhow.pushcoin.com/using-security-key-for-2-step-verification/",
+    "category": "education"
+  },
+  {
+    "name": "SchoolSoft",
+    "url": "http://schoolsoft.se/",
+    "img": "schoolsoft.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
+    "name": "Udacity",
+    "url": "https://www.udacity.com/",
+    "twitter": "udacity",
+    "img": "udacity.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
+    "name": "Udemy",
+    "url": "https://www.udemy.com/",
+    "twitter": "udemy",
+    "img": "udemy.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
+    "name": "Aol Mail",
+    "url": "https://mail.aol.com",
+    "twitter": "aol",
+    "img": "aol.png",
+    "tfa": "No",
+    "category": "email"
+  },
+  {
+    "name": "FastMail",
+    "url": "https://www.fastmail.fm/",
+    "img": "fastmail.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.fastmail.fm/help/features_alternative_logins.html",
+    "category": "email"
+  },
+  {
+    "name": "Gmail",
+    "url": "https://gmail.com",
+    "img": "gmail.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.google.com/intl/en-US/landing/2step/features.html",
+    "category": "email"
+  },
+  {
+    "name": "GMX",
+    "url": "https://www.gmx.com/",
+    "twitter": "gmxmail",
+    "img": "gmx.png",
+    "tfa": "No",
+    "category": "email"
+  },
+  {
+    "name": "Hushmail",
+    "url": "https://www.hushmail.com",
+    "img": "hushmail.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "https://help.hushmail.com/entries/63282756-Two-step-verification",
+    "category": "email"
+  },
+  {
+    "name": "Mail.com",
+    "url": "https://www.mail.com/",
+    "twitter": "maildotcom",
+    "img": "maildotcom.png",
+    "tfa": "No",
+    "category": "email"
+  },
+  {
+    "name": "mailbox.org",
+    "url": "https://www.mailbox.org/",
+    "img": "mailbox.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "doc": "https://mailbox.org/en/one-time-passwords-for-secure-login-to-our-webmailer/",
+    "category": "email"
+  },
+  {
+    "name": "Outlook.com",
+    "url": "https://outlook.com",
+    "img": "outlook.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://windows.microsoft.com/en-us/windows/two-step-verification-faq",
+    "category": "email"
+  },
+  {
+    "name": "Pobox",
+    "url": "https://www.pobox.com/",
+    "img": "pobox.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://pobox.com/helpspot/index.php?pg=kb.chapter&id=65",
+    "category": "email"
+  },
+  {
+    "name": "Posteo",
+    "url": "https://posteo.de/",
+    "img": "posteo.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://posteo.de/en/help/what-is-two-factor-authentication-and-how-do-i-set-it-up",
+    "category": "email"
+  },
+  {
+    "name": "ProtonMail",
+    "url": "https://protonmail.ch/",
+    "twitter": "ProtonMail",
+    "img": "protonmail.png",
+    "tfa": "No",
+    "category": "email"
+  },
+  {
+    "name": "Riseup Mail",
+    "url": "https://mail.riseup.net",
+    "twitter": "riseupnet",
+    "img": "riseup.png",
+    "tfa": "No",
+    "doc": "https://help.riseup.net/en/email/webmail/2factorauth",
+    "category": "email"
+  },
+  {
+    "name": "Yahoo Mail",
+    "url": "https://mail.yahoo.com/",
+    "img": "yahoomail.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://help.yahoo.com/kb/SLN5013.html",
+    "category": "email"
+  },
+  {
+    "name": "Yahoo Japan Mail",
+    "url": "https://mail.yahoo.co.jp/",
+    "img": "yahoojapanmail.png",
+    "tfa": "Yes",
+    "sms": "No",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "http://id.yahoo.co.jp/security/otp.html",
+    "category": "email"
+  },
+  {
+    "name": "Yandex.Mail",
+    "url": "https://mail.yandex.com/",
+    "img": "yandexmail.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "SMS-capable phone required for initial setup."
+    },
+    "doc": "https://yandex.com/support/passport/authorization/twofa.xml",
+    "category": "email"
+  },
+  {
+    "name": "Zimbra",
+    "url": "https://www.zimbra.com/",
+    "twitter": "zimbra",
+    "img": "zimbra.png",
+    "tfa": "No",
+    "status": "https://bugzilla.zimbra.com/show_bug.cgi?id=98623",
+    "category": "email"
+  },
+  {
+    "name": "Zoho Mail",
+    "url": "https://www.zoho.com/mail/",
+    "img": "zoho.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://adminconsole.wiki.zoho.com/mail/Two-Factor-Authentication.html",
+    "category": "email"
+  },
+  {
+    "name": "hitbox",
+    "url": "http://www.hitbox.tv/",
+    "twitter": "hitboxliveHelp",
+    "img": "hitbox.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "Hulu",
+    "url": "http://www.hulu.com/",
+    "twitter": "hulu_support",
+    "img": "hulu.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "Last.fm",
+    "url": "http://www.last.fm/",
+    "twitter": "lastfmsupport",
+    "img": "lastfm.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "Netflix",
+    "url": "https://www.netflix.com/us/",
+    "twitter": "Netflixhelps",
+    "img": "netflix.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "Plex",
+    "url": "https://www.plex.tv",
+    "twitter": "plexapp",
+    "img": "plex.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "Sling TV",
+    "url": "https://www.sling.com/",
+    "twitter": "slinganswers",
+    "img": "sling.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "SoundCloud",
+    "url": "https://soundcloud.com/",
+    "twitter": "soundcloud",
+    "img": "soundcloud.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "Spotify",
+    "url": "https://www.spotify.com/",
+    "twitter": "spotifycares",
+    "img": "spotify.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "TIDAL",
+    "url": "http://tidal.com/",
+    "twitter": "TIDALHiFi",
+    "img": "tidal.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "Twitch",
+    "url": "http://www.twitch.tv/",
+    "twitter": "TwitchSupport",
+    "img": "twitch.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "Ustream",
+    "url": "http://www.ustream.tv/",
+    "twitter": "UstreamSupport",
+    "img": "ustream.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/",
+    "twitter": "youtube",
+    "img": "youtube.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "phone": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.google.com/intl/en-US/landing/2step/features.html",
+    "category": "entertainment"
+  },
+  {
+    "name": "Vessel",
+    "url": "https://www.vessel.com/",
+    "twitter": "Vessel",
+    "img": "vessel.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "Vimeo",
+    "url": "https://vimeo.com/",
+    "twitter": "vimeo",
+    "img": "vimeo.png",
+    "tfa": "No",
+    "category": "entertainment"
+  },
+  {
+    "name": "ADP",
+    "url": "https://www.adp.com",
+    "twitter": "adp",
+    "img": "adp.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Credit Karma",
+    "url": "https://www.creditkarma.com",
+    "twitter": "creditkarma",
+    "img": "creditkarma.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "FreeAgent",
+    "url": "http://www.freeagent.com",
+    "img": "freeagent.png",
+    "twitter": "freeagent",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "FreshBooks",
+    "url": "https://www.freshbooks.com",
+    "img": "freshbooks.png",
+    "twitter": "freshbooks",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Geico",
+    "url": "https://www.geico.com/",
+    "img": "geico.png",
+    "twitter": "geico_service",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "HelloWallet",
+    "url": "https://www.hellowallet.com",
+    "twitter": "HelloWallet",
+    "img": "hellowallet.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Intuit TurboTax",
+    "url": "https://turbotax.intuit.com/",
+    "img": "turbotax.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "https://ttlc.intuit.com/questions/2902682-what-is-two-step-verification",
+    "category": "finance"
+  },
+  {
+    "name": "Kiva",
+    "url": "https://www.kiva.org",
+    "twitter": "kiva",
+    "img": "kiva.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Kualto",
+    "url": "https://www.kualto.com",
+    "twitter": "kualtoapp",
+    "img": "kualto.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "LevelUp",
+    "url": "https://www.thelevelup.com",
+    "twitter": "TheLevelUp",
+    "img": "levelup.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Mint",
+    "url": "https://www.mint.com",
+    "twitter": "mint",
+    "img": "mint.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Mint Bills (formerly Check)",
+    "url": "https://bills.mint.com",
+    "twitter": "mintbills",
+    "img": "mintbills.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Paychex",
+    "url": "https://www.paychex.com",
+    "img": "paychex.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "category": "finance"
+  },
+  {
+    "name": "Pocketsmith",
+    "url": "https://www.pocketsmith.com",
+    "twitter": "pocketsmith",
+    "img": "pocketsmith.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.pocketsmith.com/blog/2014/07/18/2fa-orginal-merchant-and-other-updates",
+    "category": "finance"
+  },
+  {
+    "name": "Popmoney",
+    "url": "https://www.popmoney.com",
+    "twitter": "popmoney",
+    "img": "popmoney.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Quickbooks Online",
+    "url": "http://www.quickbooks.com",
+    "twitter": "quickbooks",
+    "img": "quickbooks.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "QuickFile",
+    "url": "http://www.quickfile.co.uk",
+    "twitter": "quickfile",
+    "img": "quickfile.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://help.quickfile.co.uk/main/1/2-factor_authentication.htm",
+    "category": "finance"
+  },
+  {
+    "name": "Ripple Trade",
+    "url": "https://www.rippletrade.com/",
+    "img": "rippletrade.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://ripple.com/knowledge_center/using-two-factor-authentication-2fa/",
+    "category": "finance"
+  },
+  {
+    "name": "Shoeboxed",
+    "url": "https://www.shoeboxed.com/",
+    "twitter": "Shoeboxed",
+    "img": "shoeboxed.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "SimpleTax",
+    "url": "https://simpletax.ca/",
+    "twitter": "simpletax",
+    "img": "simpletax.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Treasury Direct",
+    "url": "https://www.treasurydirect.gov",
+    "img": "treasurydirect.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "category": "finance"
+  },
+  {
+    "name": "Valic",
+    "url": "https://www.valic.com/",
+    "twitter": "VALIC_retire",
+    "img": "valic.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
+    "name": "Xero",
+    "url": "https://www.xero.com/",
+    "twitter": "Xero",
+    "img": "xero.png",
+    "category": "finance"
+  },
+  {
+    "name": "Yodlee Moneycenter",
+    "url": "https://yodleemoneycenter.com/",
+    "twitter": "Yodlee",
+    "img": "yodlee.png",
+    "tfa": "no",
+    "category": "finance"
+  },
+  {
+    "name": "ZenPayroll",
+    "url": "https://www.zenpayroll.com",
+    "img": "zenpayroll.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://help.zenpayroll.com/customer/portal/articles/969452-two-step-authentication",
+    "category": "finance"
+  },
+  {
+    "name": "Ankama",
+    "url": "http://www.ankama.com",
+    "img": "ankama.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "https://support.ankama.com/hc/en-us/categories/200093427-DOFUS-Security",
+    "category": "gaming"
+  },
+  {
+    "name": "Blizzard",
+    "url": "http://blizzard.com",
+    "img": "blizzard.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://us.battle.net/en/security/",
+    "category": "gaming"
+  },
+  {
+    "name": "Desura",
+    "url": "http://www.desura.com/",
+    "img": "desura.png",
+    "tfa": "No",
+    "twitter": "desura",
+    "category": "gaming"
+  },
+  {
+    "name": "Elder Scrolls Online",
+    "url": "http://www.elderscrollsonline.com/",
+    "twitter": "TESOnline",
+    "img": "eso.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "doc": "/notes/eso/",
+    "category": "gaming"
+  },
+  {
+    "name": "Enjin",
+    "url": "http://www.enjin.com/",
+    "img": "enjin.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "2FA is only available on paid plans."
+    },
+    "doc": "http://support.enjin.com/hc/en-us/articles/201090770-2-Factor-Authentication-Authy-",
+    "category": "gaming"
+  },
+  {
+    "name": "EVE Online",
+    "url": "http://www.eveonline.com/",
+    "twitter": "EveOnline",
+    "img": "eveonline.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "https://community.eveonline.com/news/dev-blogs/two-factor-authentication/",
+    "exceptions": {
+      "text": "This does not prevent people from logging into the game client by circumventing the launcher. That is a legacy issue that the developers have acknowledged."
+    },
+    "category": "gaming"
+  },
+  {
+    "name": "Garena Online",
+    "url": "http://garena.com",
+    "twitter": "garenaonline",
+    "img": "garena.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.garena.com/account/",
+    "exceptions": {
+      "text": "As of September 29th 2014, new user enrollment for 2FA is broken. A mobile phone and Garena account level 3 or higher is required for 2FA."
+    },
+    "category": "gaming"
+  },
+  {
+    "name": "GOG.com",
+    "url": "http://www.gog.com",
+    "twitter": "GOGcom",
+    "img": "gog.png",
+    "tfa": "No",
+    "category": "gaming"
+  },
+  {
+    "name": "GREE",
+    "url": "http://product.gree.net/",
+    "img": "gree.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "/notes/gree/",
+    "category": "gaming"
+  },
+  {
+    "name": "Guild Wars 2",
+    "url": "https://www.guildwars2.com",
+    "img": "guildwars2.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "https://help.guildwars2.com/entries/27626157-Two-Factor-Authentication",
+    "category": "gaming"
+  },
+  {
+    "name": "Humble Bundle",
+    "url": "https://www.humblebundle.com/",
+    "img": "humble.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://support.humblebundle.com/hc/en-us/articles/202421374",
+    "category": "gaming"
+  },
+  {
+    "name": "Itch.io",
+    "url": "https://itch.io/",
+    "img": "itchio.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://itch.io/developers/two-factor-authentication",
+    "category": "gaming"
+  },
+  {
+    "name": "League of Legends",
+    "url": "http://leagueoflegends.com",
+    "twitter": "leagueoflegends",
+    "img": "leagueoflegends.png",
+    "tfa": "No",
+    "status": "http://forums.na.leagueoflegends.com/board/showthread.php?p=45603580#45603580",
+    "category": "gaming"
+  },
+  {
+    "name": "Mojang",
+    "url": "https://mojang.com/",
+    "twitter": "MojangSupport",
+    "img": "mojang.png",
+    "tfa": "No",
+    "category": "gaming"
+  },
+  {
+    "name": "Origin",
+    "url": "https://www.origin.com/",
+    "img": "origin.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://help.ea.com/en/article/origin-login-verification-information/",
+    "category": "gaming"
+  },
+  {
+    "name": "Playstation Network",
+    "url": "https://www.playstation.com/",
+    "twitter": "AskPlayStation",
+    "img": "psn.png",
+    "tfa": "No",
+    "category": "gaming"
+  },
+  {
+    "name": "Rockstar Games Social Club",
+    "url": "http://socialclub.rockstargames.com",
+    "twitter": "RockstarSupport",
+    "img": "rockstargames.png",
+    "tfa": "No",
+    "category": "gaming"
+  },
+  {
+    "name": "RuneScape",
+    "url": "http://www.runescape.com/",
+    "img": "runescape.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://services.runescape.com/m=rswiki/en/Authenticator_FAQ",
+    "category": "gaming"
+  },
+  {
+    "name": "Star Wars: The Old Republic",
+    "url": "http://www.swtor.com/",
+    "img": "swtor.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.swtor.com/info/security-key",
+    "category": "gaming"
+  },
+  {
+    "name": "Steam",
+    "url": "http://store.steampowered.com/",
+    "img": "steam.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "https://support.steampowered.com/kb_article.php?ref=8625-WRAH-9030",
+    "exceptions": {
+      "text": "Software implementation requires use of the Steam Mobile app. It does not support multiple accounts on the same device. It does not support multiple accounts using the same phone number for SMS. Authentication on non-phone devices is not officially supported. SMS support is limited to receiving account recovery codes for password resets."
+    },
+    "category": "gaming"
+  },
+  {
+    "name": "Square Enix",
+    "url": "http://na.square-enix.com/",
+    "img": "squarenix.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.square-enix.com/na/account/otp/",
+    "exceptions": {
+      "text": "Software implementation requires you to have purchased either Final Fantasy XI or Final Fantasy XIV and registered the game."
+    },
+    "category": "gaming"
+  },
+  {
+    "name": "Tibia",
+    "url": "http://www.tibia.com/",
+    "img": "tibia.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.tibia.com/support/?subtopic=faq&question=authenticator",
+    "category": "gaming"
+  },
+  {
+    "name": "Trion Worlds",
+    "url": "http://www.trionworlds.com/en/",
+    "img": "trionworlds.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://store.trionworlds.com/account/profile/manage-game",
+    "category": "gaming"
+  },
+  {
+    "name": "Uplay",
+    "url": "http://uplay.ubi.com/",
+    "twitter": "UplayUbisoft",
+    "img": "uplay.png",
+    "tfa": "No",
+    "category": "gaming"
+  },
+  {
+    "name": "Wargaming",
+    "url": "http://wargaming.net/",
+    "twitter": "wargaming_net",
+    "img": "wargaming.png",
+    "tfa": "No",
+    "category": "gaming"
+  },
+  {
+    "name": "WildStar",
+    "url": "https://www.wildstar-online.com/",
+    "img": "wildstar.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://support.wildstar-online.com/entries/53257786-Two-Step-Verification-Setting-Up-and-Rewards",
+    "category": "gaming"
+  },
+  {
+    "name": "23andMe",
+    "url": "http://www.23andme.com",
+    "twitter": "23andMe",
+    "img": "23andme.png",
+    "tfa": "No",
+    "category": "health"
+  },
+  {
+    "name": "drchrono",
+    "url": "https://www.drchrono.com",
+    "img": "drchrono.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.drchrono.com/blog/two-factor-authentication-extra-security-for-your-health-records/",
+    "category": "health"
+  },
+  {
+    "name": "Drugs.com",
+    "url": "http://www.drugs.com",
+    "twitter": "DrugsCom",
+    "img": "drugscom.png",
+    "tfa": "No",
+    "status": "https://twitter.com/Drugscom/status/493856207572975620",
+    "category": "health"
+  },
+  {
+    "name": "FitBit",
+    "url": "http://www.fitbit.com",
+    "twitter": "fitbit",
+    "img": "fitbit.png",
+    "tfa": "No",
+    "category": "health"
+  },
+  {
+    "name": "FollowMyHealth",
+    "url": "https://www.followmyhealth.com/",
+    "img": "followmyhealth.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "http://support.followmyhealth.com/customer/portal/articles/1309938-fmh-secure-login-2-step-verification---break-down",
+    "category": "health"
+  },
+  {
+    "name": "Healthcare.gov",
+    "url": "http://healthcare.gov",
+    "twitter": "HealthCareGov",
+    "img": "healthcaregov.png",
+    "tfa": "No",
+    "category": "health"
+  },
+  {
+    "name": "HealthVault (w/Microsoft Account)",
+    "url": "https://www.healthvault.com",
+    "img": "healthvault.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://windows.microsoft.com/en-au/windows/two-step-verification-faq",
+    "category": "health"
+  },
+  {
+    "name": "myfitnesspal",
+    "url": "http://www.myfitnesspal.com",
+    "twitter": "myfitnesspal",
+    "img": "myfitnesspal.png",
+    "tfa": "No",
+    "category": "health"
+  },
+  {
+    "name": "WebMD",
+    "url": "http://www.webmd.com",
+    "twitter": "WebMD",
+    "img": "webmd.png",
+    "tfa": "No",
+    "category": "health"
+  },
+  {
+    "name": "Withings",
+    "url": "http://www.withings.com",
+    "twitter": "Withings",
+    "img": "withings.png",
+    "tfa": "No",
+    "category": "health"
+  },
+  {
+    "name": "Binary Lane",
+    "url": "https://www.binarylane.com.au/",
+    "img": "binarylane.png",
+    "tfa": "Yes",
+    "software": "yes",
+    "doc": "https://www.binarylane.com.au/support/solutions/articles/1000199372-two-factor-authentication",
+    "category": "hosting"
+  },
+  {
+    "name": "Bluehost",
+    "url": "https://www.bluehost.com/",
+    "img": "bluehost.png",
+    "tfa": "No",
+    "twitter": "bluehostsupport",
+    "category": "hosting"
+  },
+  {
+    "name": "ChunkHost",
+    "url": "https://chunkhost.com",
+    "img": "chunkhost.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "category": "hosting"
+  },
+  {
+    "name": "CloudAtCost",
+    "url": "http://cloudatcost.com",
+    "img": "cloudatcost.png",
+    "twitter": "cloudatcost",
+    "tfa": "no",
+    "category": "hosting"
+  },
+  {
+    "name": "CloudShards",
+    "url": "https://www.cloudshards.com/",
+    "img": "cloudshards.png",
+    "twitter": "CloudShards",
+    "tfa": "No",
+    "category": "hosting"
+  },
+  {
+    "name": "Dreamhost",
+    "url": "https://dreamhost.com",
+    "img": "dreamhost.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://wiki.dreamhost.com/Enabling_Multifactor_Authentication",
+    "category": "hosting"
+  },
+  {
+    "name": "Fastly",
+    "url": "https://www.fastly.com",
+    "twitter": "Fastly",
+    "img": "fastly.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://docs.fastly.com/guides/getting-started/enabling-and-disabling-twofactor-authentication",
+    "category": "hosting"
+  },
+  {
+    "name": "Glesys",
+    "url": "http://glesys.com/",
+    "twitter": "glesysab",
+    "img": "glesys.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "category": "hosting"
+  },
+  {
+    "name": "Globat",
+    "url": "https://www.globat.com/",
+    "img": "globat.png",
+    "tfa": "No",
+    "twitter": "globat",
+    "category": "hosting"
+  },
+  {
+    "name": "Infomaniak",
+    "url": "https://www.infomaniak.com/",
+    "img": "infomaniak.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.infomaniak.ch/en/support/faq/1940",
+    "category": "hosting"
+  },
+  {
+    "name": "InMotion Hosting",
+    "url": "https://www.inmotionhosting.com/",
+    "twitter": "inmotionhosting",
+    "img": "inmotion.png",
+    "tfa": "No",
+    "category": "hosting"
+  },
+  {
+    "name": "Hetzner Online",
+    "url": "https://www.hetzner.de/",
+    "img": "hetzner.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "category": "hosting"
+  },
+  {
+    "name": "iPage",
+    "url": "http://www.ipage.com/ipage/index.html",
+    "twitter": "iPage",
+    "img": "ipage.png",
+    "tfa": "No",
+    "category": "hosting"
+  },
+  {
+    "name": "Mammoth Networks",
+    "url": "https://www.mammoth.net.au/",
+    "img": "mammothnetworks.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.mammoth.net.au/news/2012/10/22/two-factor-authentication-now-available",
+    "category": "hosting"
+  },
+  {
+    "name": "MaxCDN",
+    "url": "https://www.maxcdn.com",
+    "img": "maxcdn.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.maxcdn.com/one/tutorial/enable-two-step-verification/",
+    "category": "hosting"
+  },
+  {
+    "name": "Media Temple",
+    "url": "http://mediatemple.net/",
+    "twitter": "mediatemple",
+    "img": "mediatemple.png",
+    "tfa": "No",
+    "category": "hosting"
+  },
+  {
+    "name": "NearlyFreeSpeech.NET",
+    "url": "https://www.nearlyfreespeech.net/",
+    "img": "nfsn.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://blog.nearlyfreespeech.net/2014/02/28/price-cuts-more-security-and-recovery-options/",
+    "category": "hosting"
+  },
+  {
+    "name": "Online",
+    "url": "https://www.online.net/",
+    "img": "online.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "category": "hosting"
+  },
+  {
+    "name": "OVH",
+    "url": "http://www.ovh.com/",
+    "img": "ovh.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "twitter": "ovh_support_en",
+    "category": "hosting"
+  },
+  {
+    "name": "PlanetHoster",
+    "url": "https://planethoster.net",
+    "img": "PlanetHoster.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://blog.planethoster.net/securite-espace-client-planethoster/",
+    "category": "hosting"
+  },
+  {
+    "name": "Rackspace",
+    "url": "https://www.rackspace.com/",
+    "img": "rackspace.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://www.rackspace.com/knowledge_center/article/myrackspace-two-factor-authentication",
+    "category": "hosting"
+  },
+  {
+    "name": "RamNode",
+    "url": "http://www.ramnode.com",
+    "img": "ramnode.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://clientarea.ramnode.com/knowledgebase.php?action=displayarticle&id=70",
+    "category": "hosting"
+  },
+  {
+    "name": "Softlayer",
+    "url": "https://www.softlayer.com",
+    "img": "softlayer.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://knowledgelayer.softlayer.com/procedure/configure-portal-account-one-time-password-access-manage",
+    "category": "hosting"
+  },
+  {
+    "name": "SpeedIT Solutions",
+    "url": "https://www.speedit.org/",
+    "img": "speedit.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "twitter": "SpeedIT_S",
+    "doc": "https://www.speedit.org/faq/#accordian_item_937",
+    "category": "hosting"
+  },
+  {
+    "name": "Squarespace",
+    "url": "https://squarespace.com/",
+    "twitter": "squarespace",
+    "img": "squarespace.png",
+    "tfa": "No",
+    "category": "hosting"
+  },
+  {
+    "name": "UKFast",
+    "url": "http://www.ukfast.co.uk/",
+    "img": "ukfast.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "category": "hosting"
+  },
+  {
+    "name": "Vultr",
+    "url": "https://www.vultr.com/",
+    "img": "vultr.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.vultr.com/faq/#authy",
+    "category": "hosting"
+  },
+  {
+    "name": "WebFaction",
+    "url": "https://www.webfaction.com",
+    "twitter": "webfaction",
+    "img": "webfaction.png",
+    "tfa": "No",
+    "category": "hosting"
+  },
+  {
+    "name": "Ukraine",
+    "url": "https://www.ukraine.com.ua/",
+    "img": "ukraine.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.ukraine.com.ua/faq/rekomendatsii-po-zashchite-ot-vzloma-uchetnoj-zapisi.html",
+    "category": "hosting"
+  },
+  {
+    "name": "Bitium",
+    "url": "https://www.bitium.com",
+    "img": "bitium.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "https://support.bitium.com/customer/portal/articles/1417358-enabling-two-factor-authentication-2fa-",
+    "category": "identity"
+  },
+  {
+    "name": "Clavid",
+    "url": "http://www.clavid.com/",
+    "img": "clavid.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "sms": "Yes",
+    "doc": "http://www.clavid.com/index.php?option=com_content&view=article&id=85&Itemid=128&lang=en",
+    "category": "identity"
+  },
+  {
+    "name": "CloudEntr",
+    "url": "http://www.cloudentr.com/",
+    "img": "cloudentr.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.cloudentr.com/product/two-factor-authentication/",
+    "category": "identity"
+  },
+  {
+    "name": "Dashlane",
+    "url": "https://www.dashlane.com",
+    "img": "dashlane.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://support.dashlane.com/customer/portal/articles/1099221-protect-your-account-using-two-factor-authentication",
+    "category": "identity"
+  },
+  {
+    "name": "Keeper",
+    "url": "https://keepersecurity.com/",
+    "img": "keeper.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "phone": "Yes",
+    "sms": "Yes",
+    "doc": "https://www.keepersecurity.com/security#twoFactor",
+    "category": "identity"
+  },
+  {
+    "name": "Keybase",
+    "url": "https://keybase.io",
+    "twitter": "KeybaseIO",
+    "img": "keybase.png",
+    "tfa": "No",
+    "category": "identity"
+  },
+  {
+    "name": "LastPass",
+    "url": "https://lastpass.com/",
+    "img": "lastpass.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://helpdesk.lastpass.com/security-options/multifactor-authentication-options/",
+    "category": "identity"
+  },
+  {
+    "name": "Mitro",
+    "url": "https://www.mitro.co/",
+    "img": "mitro.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.mitro.co/secure.html",
+    "category": "identity"
+  },
+  {
+    "name": "MyDigipass.com",
+    "url": "https://mydigipass.com/",
+    "img": "mydigipass.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.mydigipass.com/en/fp/signup",
+    "category": "identity"
+  },
+  {
+    "name": "Okta",
+    "url": "https://www.okta.com/",
+    "img": "okta.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.okta.com/what-we-do/multifactor-authentication.html",
+    "category": "identity"
+  },
+  {
+    "name": "OneLogin",
+    "url": "http://www.onelogin.com",
+    "img": "onelogin.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "doc": "http://www.onelogin.com/product/strong-authentication/two-factor-authentication/",
+    "category": "identity"
+  },
+  {
+    "name": "Persowna",
+    "url": "https://persowna.net",
+    "img": "persowna.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "category": "identity"
+  },
+  {
+    "name": "RoboForm",
+    "url": "http://www.roboform.com/",
+    "img": "roboform.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "category": "identity"
+  },
+  {
+    "name": "SecureSafe",
+    "url": "http://www.securesafe.com",
+    "img": "securesafe.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "exceptions": {
+      "text": "2FA is only available on paid plans."
+    },
+    "doc": "http://www.securesafe.com/en/faq/security.html",
+    "category": "identity"
+  },
+  {
+    "name": "Betterment",
+    "url": "https://www.betterment.com/",
+    "twitter": "betterment",
+    "img": "betterment.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "Charles Schwab",
+    "url": "https://www.schwab.com/",
+    "img": "charlesschwab.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.schwab.com/public/schwab/nn/legal_compliance/schwabsafe/protect_your_account",
+    "category": "investing"
+  },
+  {
+    "name": "E*Trade",
+    "url": "https://www.etrade.com/",
+    "img": "etrade.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://us.etrade.com/e/t/jumppage/viewjumppage?PageName=secureid_enter#",
+    "category": "investing"
+  },
+  {
+    "name": "Fidelity Investments",
+    "url": "https://www.fidelity.com",
+    "twitter": "fidelity",
+    "img": "fidelity.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "/notes/fidelity/",
+    "category": "investing"
+  },
+  {
+    "name": "HealthEquity",
+    "url": "http://www.healthequity.com/",
+    "twitter": "healthequity",
+    "img": "healthequity.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "Interactive Brokers",
+    "url": "https://www.interactivebrokers.com",
+    "img": "interactivebrokers.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.interactivebrokers.com/en/index.php?f=ibgStrength&p=log",
+    "category": "investing"
+  },
+  {
+    "name": "Loyal3",
+    "url": "https://www.loyal3.com/",
+    "twitter": "loyal3",
+    "img": "loyal3.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "Manulife",
+    "url": "http://www.manulife.ca",
+    "twitter": "Manulife",
+    "img": "manulife.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "Merrill Edge",
+    "url": "https://www.merrilledge.com/",
+    "twitter": "MerrillLynch",
+    "img": "merrilledge.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "MotifInvesting",
+    "url": "https://www.motifinvesting.com/",
+    "img": "motif.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "doc": "https://www.motifinvesting.com/security",
+    "category": "investing"
+  },
+  {
+    "name": "OptionsHouse",
+    "img": "optionshouse.png",
+    "url": "https://www.optionshouse.com",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.optionshouse.com/faq/authenticator/",
+    "category": "investing"
+  },
+  {
+    "name": "OptionsXpress",
+    "url": "http://www.optionsxpress.com/",
+    "twitter": "optionsXpress",
+    "img": "optionsxpress.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "Personal Capital",
+    "url": "https://www.personalcapital.com",
+    "twitter": "personalcapital",
+    "img": "personalcapital.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "phone": "Yes",
+    "doc": "https://www.personalcapital.com/safety-and-security",
+    "category": "investing"
+  },
+  {
+    "name": "RBC Direct Investing",
+    "url": "http://www.rbcdirectinvesting.com",
+    "twitter": "RBC",
+    "img": "rbc.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "Robinhood",
+    "url": "https://www.robinhood.com/",
+    "img": "robinhood.png",
+    "tfa": "No",
+    "twitter": "RobinhoodApp",
+    "category": "investing"
+  },
+  {
+    "name": "Scottrade",
+    "url": "https://www.scottrade.com/",
+    "twitter": "scottrade",
+    "img": "scottrade.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "Sharebuilder",
+    "url": "https://www.sharebuilder.com/",
+    "twitter": "sharebuilder",
+    "img": "sharebuilder.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "TD Ameritrade",
+    "url": "https://www.tdameritrade.com",
+    "twitter": "TDAmeritrade",
+    "img": "tdameritrade.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "TD Waterhouse",
+    "url": "https://www.tdwaterhouse.ca",
+    "twitter": "TD_Canada",
+    "img": "tdameritrade.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "TradeKing",
+    "url": "https://www.tradeking.com",
+    "twitter": "tradeking",
+    "img": "tradeking.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "TIAA-CREF",
+    "url": "https://www.tiaa-cref.org",
+    "twitter": "TC_Talks",
+    "img": "tiaacref.png",
+    "tfa": "no",
+    "category": "investing"
+  },
+  {
+    "name": "Vanguard",
+    "url": "https://www.vanguard.com/",
+    "twitter": "Vanguard_Group",
+    "img": "vanguard.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://personal.vanguard.com/us/insights/article/logon-security-122014",
+    "category": "investing"
+  },
+  {
+    "name": "Wealthfront",
+    "url": "https://www.wealthfront.com/",
+    "twitter": "wealthfront",
+    "img": "wealthfront.png",
+    "tfa": "no",
+    "category": "investing"
+  },
+  {
+    "name": "WiseBanyan",
+    "url": "https://www.wisebanyan.com/",
+    "img": "wisebanyan.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://wisebanyan.com/faq/my-account/how-does-two-step-verification-work",
+    "category": "investing"
+  },
+  {
+    "name": "ActiveCollab",
+    "url": "https://www.activecollab.com/",
+    "twitter": "activecollab",
+    "img": "activecollab.png",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "Adobe ID",
+    "url": "https://accounts.adobe.com/",
+    "twitter": "adobecare",
+    "img": "adobe.png",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "Aerohive Networks",
+    "url": "https://www.aerohive.com/",
+    "img": "aerohive.png",
+    "tfa": "No",
+    "twitter": "aerohive",
+    "category": "other"
+  },
+  {
+    "name": "Automater",
+    "url": "http://automater.pl/en/",
+    "img": "automater.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.youtube.com/watch?v=5OLcvjVhhuI",
+    "category": "other"
+  },
+  {
+    "name": "Azendoo",
+    "url": "https://app.azendoo.com",
+    "img": "azendoo.png",
+    "tfa": "No",
+    "twitter": "Azendoo",
+    "category": "other"
+  },
+  {
+    "name": "Cisco Meraki",
+    "url": "https://meraki.cisco.com/",
+    "img": "meraki.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://documentation.meraki.com/zGeneral_Administration/Managing_Dashboard_Access/Using_Google_Authenticator_for_Two-factor_Authentication_in_Dashboard",
+    "category": "other"
+  },
+  {
+    "name": "Clio",
+    "url": "https://goclio.com",
+    "img": "clio.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "doc": "https://support.goclio.com/hc/en-us/articles/203184210-Two-Factor-Authentication",
+    "category": "other"
+  },
+  {
+    "name": "Clipper",
+    "url": "https://www.clippercard.com",
+    "twitter": "BayAreaClipper",
+    "img": "clipper.png",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "Cloudinary",
+    "url": "http://cloudinary.com",
+    "img": "cloudinary.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "category": "other"
+  },
+  {
+    "name": "Delighted",
+    "url": "https://delightedapp.com/",
+    "img": "delighted.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "category": "other"
+  },
+  {
+    "name": "DirectAdmin",
+    "url": "http://www.directadmin.com",
+    "img": "directadmin.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://directadmin.com/features.php?id=1754",
+    "category": "other"
+  },
+  {
+    "name": "DoorDash",
+    "url": "https://www.doordash.com",
+    "img": "doordash.png",
+    "twitter": "doordash",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "Envato",
+    "url": "http://envato.com",
+    "img": "envato.png",
+    "twitter": "envato",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "fruux",
+    "url": "https://fruux.com",
+    "img": "fruux.png",
+    "twitter": "fruux",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "IFTTT",
+    "url": "https://ifttt.com",
+    "img": "ifttt.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://ifttt.com/settings#two-step-verification",
+    "category": "other"
+  },
+  {
+    "name": "Formstack",
+    "url": "https://www.formstack.com/",
+    "twitter": "formstack",
+    "img": "formstack.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://support.formstack.com/customer/portal/articles/1833071-two-factor-authentication",
+    "category": "other"
+  },
+  {
+    "name": "Kayako",
+    "url": "https://www.kayako.com",
+    "img": "kayako.png",
+    "twitter": "kayako",
+    "tfa": "No",
+    "status": "http://forums.kayako.com/threads/two-factor-authentication-2fa-otp.32376/#post-172053",
+    "category": "other"
+  },
+  {
+    "name": "Kickstarter",
+    "url": "https://www.kickstarter.com",
+    "img": "kickstarter.png",
+    "twitter": "kickstarter",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "doc": "https://www.kickstarter.com/help/faq/backer+questions#faq_63004",
+    "category": "other"
+  },
+  {
+    "name": "Mandrill",
+    "url": "https://mandrill.com/",
+    "img": "mandrill.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "exceptions": {
+      "text": "SMS only available in the United States, the United Kingdom, Canada or some Caribbean islands."
+    },
+    "doc": "http://help.mandrill.com/entries/57465557",
+    "category": "other"
+  },
+  {
+    "name": "Mixpanel",
+    "url": "https://mixpanel.com/",
+    "img": "mixpanel.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "twitter": "mixpanel",
+    "category": "other"
+  },
+  {
+    "name": "Office 365",
+    "url": "http://office.microsoft.com/en-us/business/",
+    "img": "office365.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "doc": "http://technet.microsoft.com/en-us/library/dn383636.aspx",
+    "category": "other"
+  },
+  {
+    "name": "StartJOIN",
+    "url": "https://www.startjoin.com/",
+    "img": "startjoin.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "category": "other"
+  },
+  {
+    "name": "Trello",
+    "url": "https://trello.com",
+    "img": "trello.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://help.trello.com/article/993-enabling-two-factor-authentication-for-your-trello-account",
+    "category": "other"
+  },
+  {
+    "name": "US Internal Revenue Service",
+    "url": "http://www.irs.gov/Individuals/Get-Transcript",
+    "twitter": "IRSnews",
+    "img": "irs.png",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "US Social Security Administration",
+    "url": "http://www.ssa.gov",
+    "img": "usssa.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://secure.ssa.gov/RIL/HpsView.do#question3",
+    "category": "other"
+  },
+  {
+    "name": "Webmin",
+    "url": "http://www.webmin.com/",
+    "img": "webmin.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://doxfer.webmin.com/Webmin/Enhanced_Authentication",
+    "category": "other"
+  },
+  {
+    "name": "Wunderlist",
+    "url": "https://www.wunderlist.com",
+    "twitter": "Wunderlist",
+    "img": "wunderlist.png",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "Zendesk",
+    "url": "http://www.zendesk.com",
+    "twitter": "Zendesk",
+    "img": "zendesk.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "sms": "Yes",
+    "doc": "https://support.zendesk.com/hc/en-us/articles/203824246",
+    "category": "other"
+  },
+  {
+    "name": "PhraseApp",
+    "url": "https://phraseapp.com",
+    "twitter": "PhraseApp",
+    "img": "phraseapp.png",
+    "software": "Yes",
+    "tfa": "Yes",
+    "doc": "http://blog.phraseapp.com/post/97556438392/extra-secure-user-accounts-in-phraseapp-with",
+    "category": "other"
+  },
+  {
+    "name": "Pinboard",
+    "url": "https://pinboard.in/",
+    "twitter": "Pinboard",
+    "img": "pinboard.png",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "Usabilla",
+    "url": "https://www.usabilla.com",
+    "img": "usabilla.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://support.usabilla.com/customer/portal/articles/2098444-2-step-authentication",
+    "category": "other"
+  },
+  {
+    "name": "Todoist",
+    "url": "https://todoist.com",
+    "twitter": "todoist",
+    "img": "todoist.png",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "Amazon Payments",
+    "url": "https://payments.amazon.com",
+    "twitter": "AmazonPayments",
+    "img": "amazon.png",
+    "tfa": "No",
+    "category": "payments"
+  },
+  {
+    "name": "Braintree",
+    "img": "braintree.png",
+    "url": "https://www.braintreepayments.com/",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://articles.braintreepayments.com/reference/security/two-factor-authentication",
+    "category": "payments"
+  },
+  {
+    "name": "Buycraft",
+    "url": "http://buycraft.net",
+    "img": "buycraft.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "sms": "Yes",
+    "exceptions": {
+      "text": "SMS-capable phone required."
+    },
+    "doc": "http://server.buycraft.net/tfa",
+    "category": "payments"
+  },
+  {
+    "name": "Dwolla",
+    "url": "https://www.dwolla.com",
+    "twitter": "dwolla",
+    "img": "dwolla.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://help.dwolla.com/customer/portal/articles/2068158-two-factor-authentication-faq?b_id=5438",
+    "category": "payments"
+  },
+  {
+    "name": "Flattr",
+    "img": "flattr.png",
+    "url": "https://flattr.com",
+    "twitter": "flattr",
+    "tfa": "No",
+    "category": "payments"
+  },
+  {
+    "name": "GoCardless",
+    "img": "gocardless.png",
+    "url": "https://gocardless.com/",
+    "twitter": "GoCardless",
+    "tfa": "No",
+    "category": "payments"
+  },
+  {
+    "name": "Google Wallet",
+    "url": "http://www.google.se/wallet/",
+    "img": "googlewallet.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.google.com/intl/en-US/landing/2step/features.html",
+    "category": "payments"
+  },
+  {
+    "name": "Litle & Co",
+    "img": "litleco.png",
+    "twitter": "litleco",
+    "tfa": "No",
+    "url": "https://www.litle.com",
+    "category": "payments"
+  },
+  {
+    "name": "Payoneer",
+    "url": "http://www.payoneer.com/",
+    "twitter": "Payoneer",
+    "img": "payoneer.png",
+    "tfa": "No",
+    "status": "https://twitter.com/Payoneer/status/456922100767674369",
+    "category": "payments"
+  },
+  {
+    "name": "PayPal",
+    "url": "https://www.paypal.com/",
+    "img": "paypal.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "exceptions": {
+      "text": "2FA is only available in the United States, Canada, United Kingdom, Germany, Austria and Australia."
+    },
+    "doc": "https://www.paypal.com/us/cgi-bin?cmd=xpt/Marketing_CommandDriven/securitycenter/PayPalSecurityKey-outside&bn_r=o",
+    "category": "payments"
+  },
+  {
+    "name": "Skrill",
+    "url": "https://skrill.com/",
+    "img": "skrill.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "doc": "https://help.skrill.com/pkb_sc_article_FAQ?id=kA0D0000000Ci3x&l=en_GB",
+    "category": "payments"
+  },
+  {
+    "name": "Stripe",
+    "img": "stripe.png",
+    "url": "https://www.stripe.com/",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://support.stripe.com/questions/how-do-i-enable-two-step-verification",
+    "category": "payments"
+  },
+  {
+    "name": "Square",
+    "url": "https://squareup.com",
+    "twitter": "square",
+    "img": "squareup.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "exceptions": {
+      "text": "Currently only US merchants, protects only Dashboard access"
+    },
+    "doc": "https://squareup.com/help/us/en/article/5593-2-step-verification",
+    "category": "payments"
+  },
+  {
+    "name": "Venmo",
+    "url": "https://venmo.com",
+    "img": "venmo.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "doc": "https://help.venmo.com/customer/portal/articles/1910230-confirm-my-identity-on-sign-in-why",
+    "category": "payments"
+  },
+  {
+    "name": "Amazon AWS WorkSpaces",
+    "url": "https://aws.amazon.com/workspaces/",
+    "doc": "https://aws.amazon.com/blogs/aws/multi-factor-auth-for-workspaces/",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "img": "awsworkspaces.png",
+    "category": "remote"
+  },
+  {
+    "name": "Join.me (w/ LogMeIn account)",
+    "url": "https://join.me/",
+    "doc": "https://accounts.logme.in/authentication/getstarted.aspx",
+    "img": "joinme.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "category": "remote"
+  },
+  {
+    "name": "LogMeIn",
+    "url": "https://secure.logmein.com/",
+    "img": "logmein.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "software": "Yes",
+    "doc": "http://help.logmein.com/SelfServiceKnowledgeRenderer?type=FAQ&id=kA0a0000000shEi",
+    "category": "remote"
+  },
+  {
+    "name": "O&O Syspectr",
+    "url": "https://www.syspectr.com",
+    "img": "oosyspectr.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.syspectr.com/en/faq/how-do-i-activate-deactivate-two-factor-authentication-for-my-account",
+    "category": "remote"
+  },
+  {
+    "name": "TeamViewer",
+    "url": "http://www.teamviewer.com",
+    "img": "teamviewer.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.teamviewer.com/en/help/402-How-do-I-activate-deactivate-two-factor-authentication-for-my-TeamViewer-account.aspx",
+    "category": "remote"
+  },
+  {
+    "name": "Amazon",
+    "url": "https://amazon.com",
+    "twitter": "AmazonHelp",
+    "img": "amazon.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
+    "name": "Apple",
+    "url": "https://appleid.apple.com",
+    "img": "apple.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "See http://support.apple.com/kb/HT5593 for a list of supported SMS carriers."
+    },
+    "doc": "http://support.apple.com/kb/ht5570",
+    "category": "retail"
+  },
+  {
+    "name": "Comixology",
+    "url": "https://www.comixology.com/",
+    "img": "comixology.png",
+    "tfa": "No",
+    "twitter": "comixology",
+    "category": "retail"
+  },
+  {
+    "name": "eBay",
+    "url": "http://ebay.com",
+    "img": "ebay.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "eBay only supports 2FA in some countries."
+    },
+    "doc": "http://pages.ebay.com/securitykey/faq.html",
+    "category": "retail"
+  },
+  {
+    "name": "Etsy",
+    "url": "http://www.etsy.com/",
+    "img": "etsy.png",
+    "sms": "Yes",
+    "tfa": "Yes",
+    "doc": "http://www.etsy.com/help/article/3335",
+    "category": "retail"
+  },
+  {
+    "name": "Everlane",
+    "url": "http://www.everlane.com/",
+    "twitter": "everlane",
+    "img": "everlane.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
+    "name": "Gilt",
+    "url": "https://www.gilt.com",
+    "twitter": "gilt",
+    "img": "gilt.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
+    "name": "Macy's",
+    "url": "http://www.macys.com/",
+    "twitter": "macys",
+    "img": "macys.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
+    "name": "Newegg",
+    "url": "http://www.newegg.com",
+    "twitter": "newegg",
+    "img": "newegg.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
+    "name": "Target",
+    "url": "http://www.target.com/",
+    "twitter": "target",
+    "img": "target.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
+    "name": "Walgreens",
+    "url": "http://www.walgreens.com",
+    "twitter": "walgreens",
+    "img": "walgreens.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
+    "name": "Walmart",
+    "url": "http://www.walmart.com/",
+    "twitter": "walmartlabs",
+    "img": "walmart.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
+    "name": "Zappos",
+    "url": "http://www.zappos.com/",
+    "twitter": "Zappos",
+    "img": "zappos.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
+    "name": "CAcert",
+    "url": "http://www.cacert.org/",
+    "twitter": "CAcert_News",
+    "img": "cacert.png",
+    "tfa": "Yes",
+    "hardware": "Yes",
+    "exceptions": {
+      "text": "Requires X.509-capable cryptotoken or smartcard."
+    },
+    "category": "security"
+  },
+  {
+    "name": "DigiCert",
+    "url": "http://www.digicert.com/",
+    "twitter": "digicert",
+    "img": "digicert.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.digicert.com/two-factor-authentication.htm",
+    "category": "security"
+  },
+  {
+    "name": "Dome9 Security",
+    "url": "http://www.dome9.com/",
+    "img": "dome9.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.dome9.com/overview/strong-2-factor-authentication",
+    "category": "security"
+  },
+  {
+    "name": "Entrust",
+    "img": "entrust.png",
+    "url": "http://www.entrust.net",
+    "tfa": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "http://www.entrust.net/certificate-services/cms-authentication.htm",
+    "category": "security"
+  },
+  {
+    "name": "FoxVPN",
+    "url": "https://www.foxvpn.net/",
+    "img": "foxvpn.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.foxvpn.net/help/enable-two-factor-authentication/",
+    "category": "security"
+  },
+  {
+    "name": "GeoTrust",
+    "url": "http://www.geotrust.com/",
+    "img": "geotrust.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "category": "security"
+  },
+  {
+    "name": "GoGetSSL",
+    "url": "https://gogetssl.com/",
+    "img": "gogetssl.png",
+    "tfa": "No",
+    "twitter": "gogetssl",
+    "category": "security"
+  },
+  {
+    "name": "Norton",
+    "url": "http://us.norton.com",
+    "img": "norton.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "doc": "https://login.norton.com/sso/embedded/learn2fa",
+    "category": "security"
+  },
+  {
+    "name": "OpenDNS",
+    "url": "http://www.opendns.com/",
+    "img": "opendns.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "twitter": "OpenDNS",
+    "software": "Yes",
+    "exceptions": {
+      "text": "Only available for enterprise accounts."
+    },
+    "doc": "http://engineering.opendns.com/2014/05/22/launching-two-step-verification/",
+    "category": "security"
+  },
+  {
+    "name": "SSLTrust",
+    "url": "http://ssltrust.com.au/",
+    "img": "ssltrust.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://www.ssltrust.com.au/enable-two-factor-authentication.html",
+    "category": "security"
+  },
+  {
+    "name": "ThreatMetrix",
+    "url": "https://www.threatmetrix.com/",
+    "img": "threatmetrix.png",
+    "tfa": "No",
+    "twitter": "ThreatMetrix",
+    "category": "security"
+  },
+  {
+    "name": "ThreatSim",
+    "url": "http://login.threatsim.com",
+    "img": "threatsim.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://threatsim.com/features/",
+    "category": "security"
+  },
+  {
+    "name": "Tinfoil Security",
+    "url": "https://www.tinfoilsecurity.com",
+    "img": "tinfoil.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "http://support.tinfoilsecurity.com/customer/portal/articles/1559364-do-you-support-two-factor-authentication-how-do-i-set-it-up-",
+    "category": "security"
+  },
+  {
+    "name": "Webroot",
+    "url": "http://www.webroot.com",
+    "img": "webroot.png",
+    "twitter": "Webroot",
+    "tfa": "No",
+    "category": "security"
+  },
+  {
+    "name": "Zocle",
+    "url": "https://zocle.com/",
+    "img": "zocle.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://university.zocle.com/2015/03/30/new-security-feature-two-step-verification/",
+    "category": "social"
+  },
+  {
+    "name": "about.me",
+    "url": "https://about.me",
+    "twitter": "aboutdotme",
+    "img": "aboutme.png",
+    "tfa": "No",
+    "category": "social"
+  },
+  {
+    "name": "App.net",
+    "url": "https://join.app.net",
+    "img": "appnet.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://mml.desk.com/customer/portal/articles/1039728-how-do-i-set-up-two-factor-authentication-",
+    "category": "social"
+  },
+  {
+    "name": "Bitly",
+    "url": "https://bitly.com/",
+    "twitter": "bitly",
+    "img": "bitly.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "exceptions": {
+      "text": "SMS-capable phone required."
+    },
+    "doc": "http://blog.bitly.com/post/90381427894/introducing-2-step-verification-for-all-users",
+    "category": "social"
+  },
+  {
+    "name": "Buffer",
+    "url": "https://bufferapp.com",
+    "img": "bufferapp.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://blog.bufferapp.com/introducing-the-safest-social-media-publishing-on-the-web",
+    "category": "social"
+  },
+  {
+    "name": "Facebook",
+    "url": "https://facebook.com",
+    "img": "facebook.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "SMS required for 2FA. 1 account per phone number, 1 phone number per account."
+    },
+    "doc": "https://www.facebook.com/help/148233965247823",
+    "category": "social"
+  },
+  {
+    "name": "Foursquare",
+    "url": "https://foursquare.com",
+    "twitter": "foursquare",
+    "img": "foursquare.png",
+    "tfa": "No",
+    "category": "social"
+  },
+  {
+    "name": "Google+",
+    "url": "https://plus.google.com",
+    "img": "g+.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.google.com/intl/en-US/landing/2step/features.html",
+    "category": "social"
+  },
+  {
+    "name": "HootSuite",
+    "url": "https://hootsuite.com",
+    "img": "hootsuite.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://help.hootsuite.com/entries/22527304-Managing-Google-Authenticator",
+    "category": "social"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com",
+    "twitter": "instagram",
+    "img": "instagram.png",
+    "tfa": "No",
+    "category": "social"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://linkedin.com",
+    "twitter": "LinkedIn",
+    "img": "linkedin.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://help.linkedin.com/app/answers/detail/a_id/544/ft/eng",
+    "category": "social"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://www.reddit.com/",
+    "twitter": "reddit",
+    "img": "reddit.png",
+    "tfa": "No",
+    "category": "social"
+  },
+  {
+    "name": "Snapchat",
+    "url": "https://www.snapchat.com/",
+    "twitter": "Snapchat",
+    "img": "snapchat.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "https://support.snapchat.com/ca/login-verification",
+    "category": "social"
+  },
+  {
+    "name": "Stack Exchange",
+    "url": "https://stackexchange.com/",
+    "twitter": "StackExchange",
+    "img": "stack_exchange.png",
+    "tfa": "No",
+    "category": "social"
+  },
+  {
+    "name": "Tumblr",
+    "url": "https://www.tumblr.com/",
+    "img": "tumblr.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://www.tumblr.com/docs/en/two_factor_auth",
+    "category": "social"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://twitter.com",
+    "img": "twitter.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "exceptions": {
+      "text": "SMS only available on select providers. SMS required for 2FA. 1 account per phone number, 1 phone number per account."
+    },
+    "software": "Yes",
+    "doc": "https://support.twitter.com/articles/20170388",
+    "category": "social"
+  },
+  {
+    "name": "VanillaForums.com",
+    "url": "https://vanillaforums.com",
+    "img": "vanilla.png",
+    "tfa": "No",
+    "twitter": "vanilla",
+    "category": "social"
+  },
+  {
+    "name": "Viadeo",
+    "url": "http://www.viadeo.com",
+    "img": "viadeo.png",
+    "tfa": "No",
+    "doc": "https://www.viadeo.com/aide/security/",
+    "twitter": "Viadeo",
+    "category": "social"
+  },
+  {
+    "name": "VK",
+    "url": "https://vk.com",
+    "img": "vk.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://vk.com/page-59800369_47885415",
+    "category": "social"
+  },
+  {
+    "name": "WordPress.com",
+    "url": "https://wordpress.com",
+    "img": "wordpress.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "exceptions": {
+      "text": "SMS-capable phone required."
+    },
+    "doc": "https://en.support.wordpress.com/security/two-step-authentication/",
+    "category": "social"
+  },
+  {
+    "name": "JetSmarter",
+    "url": "https://jetsmarter.com/",
+    "twitter": "JetSmarter",
+    "img": "jetsmarter.png",
+    "tfa": "No",
+    "category": "transport"
+  },
+  {
+    "name": "Lyft",
+    "url": "https://www.lyft.com/",
+    "twitter": "AskLyft",
+    "img": "lyft.png",
+    "tfa": "No",
+    "category": "transport"
+  },
+  {
+    "name": "SJ",
+    "url": "https://www.sj.se/",
+    "twitter": "SJ_AB",
+    "img": "sj.png",
+    "tfa": "No",
+    "category": "transport"
+  },
+  {
+    "name": "SL",
+    "url": "http://sl.se/",
+    "twitter": "SL_AB",
+    "img": "sl.png",
+    "tfa": "No",
+    "category": "transport"
+  },
+  {
+    "name": "Uber",
+    "url": "https://www.uber.com/",
+    "twitter": "uber_support",
+    "img": "uber.png",
+    "tfa": "No",
+    "category": "transport"
+  },
+  {
+    "name": "AT&T",
+    "url": "https://www.att.com/",
+    "img": "att.png",
+    "tfa": "No",
+    "twitter": "ATTCustomerCare",
+    "category": "utilities"
+  },
+  {
+    "name": "CenturyLink",
+    "url": "https://www.centurylink.com/",
+    "img": "centurylink.png",
+    "tfa": "No",
+    "twitter": "CenturyLink",
+    "category": "utilities"
+  },
+  {
+    "name": "Comcast",
+    "url": "https://www.comcast.com/",
+    "img": "comcast.png",
+    "tfa": "No",
+    "twitter": "ComcastCares",
+    "category": "utilities"
+  },
+  {
+    "name": "Cox",
+    "url": "http://www.cox.com/",
+    "img": "cox.png",
+    "tfa": "No",
+    "twitter": "CoxHelp",
+    "category": "utilities"
+  },
+  {
+    "name": "DIRECTV",
+    "url": "http://www.directv.com/",
+    "img": "directv.png",
+    "tfa": "No",
+    "twitter": "DIRECTVService",
+    "category": "utilities"
+  },
+  {
+    "name": "DISH Network",
+    "url": "http://www.dish.com/",
+    "img": "dish.png",
+    "tfa": "No",
+    "twitter": "DISH_Answers",
+    "category": "utilities"
+  },
+  {
+    "name": "RCN",
+    "url": "https://www.rcn.com/",
+    "img": "rcn.png",
+    "tfa": "No",
+    "twitter": "rcnconnects",
+    "category": "utilities"
+  },
+  {
+    "name": "Sonic",
+    "url": "https://www.sonic.net/",
+    "img": "sonic.png",
+    "tfa": "No",
+    "twitter": "sonic",
+    "category": "utilities"
+  },
+  {
+    "name": "Sprint",
+    "url": "http://www.sprint.com/",
+    "img": "sprint.png",
+    "tfa": "No",
+    "twitter": "sprint",
+    "category": "utilities"
+  },
+  {
+    "name": "Time Warner Cable",
+    "url": "https://www.timewarnercable.com/",
+    "img": "timewarner.png",
+    "tfa": "No",
+    "twitter": "TWC_Help",
+    "category": "utilities"
+  },
+  {
+    "name": "T-Mobile",
+    "url": "https://www.t-mobile.com/",
+    "img": "tmobile.png",
+    "tfa": "No",
+    "twitter": "TMobileHelp",
+    "category": "utilities"
+  },
+  {
+    "name": "Verizon",
+    "url": "https://www.verizon.com/",
+    "img": "verizon.png",
+    "tfa": "No",
+    "twitter": "VerizonSupport",
+    "category": "utilities"
+  },
+  {
+    "name": "Verizon Wireless",
+    "url": "https://www.verizonwireless.com/",
+    "img": "verizon.png",
+    "tfa": "No",
+    "twitter": "VZWSupport",
+    "category": "utilities"
+  }
+]
