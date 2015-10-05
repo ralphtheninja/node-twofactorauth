@@ -4017,6 +4017,14 @@
     "category": "other"
   },
   {
+    "name": "Patreon",
+    "url": "https://www.patreon.com/",
+    "twitter": "Patreon",
+    "img": "patreon.png",
+    "tfa": "No",
+    "category": "other"
+  },
+  {
     "name": "PhraseApp",
     "url": "https://phraseapp.com",
     "twitter": "PhraseApp",
