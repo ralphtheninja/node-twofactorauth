@@ -1190,6 +1190,14 @@
     "category": "cloud"
   },
   {
+    "name": "Scaleway",
+    "url": "https://www.scaleway.com",
+    "twitter": "scaleway",
+    "img": "scaleway.png",
+    "tfa": "No",
+    "category": "cloud"
+  },
+  {
     "name": "Scalr",
     "url": "http://www.scalr.com",
     "img": "scalr.png",
