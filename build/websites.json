@@ -1178,6 +1178,7 @@
     "img": "rackspace.png",
     "tfa": "Yes",
     "sms": "Yes",
+    "software": "Yes",
     "doc": "http://www.rackspace.com/knowledge_center/article/multi-factor-authentication-from-the-cloud-control-panel",
     "category": "cloud"
   },
@@ -4714,6 +4715,14 @@
     "category": "social"
   },
   {
+    "name": "Hailo",
+    "url": "https://www.hailoapp.com/",
+    "twitter": "Hailo",
+    "img": "hailo.png",
+    "tfa": "No",
+    "category": "transport"
+  },
+  {
     "name": "JetSmarter",
     "url": "https://jetsmarter.com/",
     "twitter": "JetSmarter",
@@ -4726,6 +4735,14 @@
     "url": "https://www.lyft.com/",
     "twitter": "AskLyft",
     "img": "lyft.png",
+    "tfa": "No",
+    "category": "transport"
+  },
+  {
+    "name": "Transport for London",
+    "url": "https://tfl.gov.uk/",
+    "twitter": "tflwaystopay",
+    "img": "tfl.png",
     "tfa": "No",
     "category": "transport"
   },
@@ -4802,6 +4819,14 @@
     "category": "utilities"
   },
   {
+    "name": "EE",
+    "url": "http://www.ee.co.uk/",
+    "img": "ee.png",
+    "tfa": "No",
+    "twitter": "EE",
+    "category": "utilities"
+  },
+  {
     "name": "RCN",
     "url": "https://www.rcn.com/",
     "img": "rcn.png",
@@ -4823,6 +4848,14 @@
     "img": "sprint.png",
     "tfa": "No",
     "twitter": "sprint",
+    "category": "utilities"
+  },
+  {
+    "name": "Three UK",
+    "url": "http://www.three.co.uk/",
+    "img": "three.png",
+    "tfa": "No",
+    "twitter": "ThreeUK",
     "category": "utilities"
   },
   {
