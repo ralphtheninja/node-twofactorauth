@@ -2257,6 +2257,14 @@
     "category": "education"
   },
   {
+    "name": "Code School",
+    "url": "https://www.codeschool.com/",
+    "twitter": "codeschool",
+    "img": "codeschool.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
     "name": "Coursera",
     "url": "https://www.coursera.org/",
     "twitter": "coursera",
@@ -4334,6 +4342,14 @@
     "category": "retail"
   },
   {
+    "name": "Lazada",
+    "url": "http://www.lazada.com/",
+    "twitter": "asklazadasg",
+    "img": "lazada.png",
+    "tfa": "No",
+    "category": "retail"
+  },
+  {
     "name": "Macy's",
     "url": "http://www.macys.com/",
     "twitter": "macys",
@@ -4515,15 +4531,6 @@
     "twitter": "Webroot",
     "tfa": "No",
     "category": "security"
-  },
-  {
-    "name": "Zocle",
-    "url": "https://zocle.com/",
-    "img": "zocle.png",
-    "tfa": "Yes",
-    "sms": "Yes",
-    "doc": "http://university.zocle.com/2015/03/30/new-security-feature-two-step-verification/",
-    "category": "social"
   },
   {
     "name": "about.me",
@@ -4712,6 +4719,15 @@
       "text": "SMS-capable phone required."
     },
     "doc": "https://en.support.wordpress.com/security/two-step-authentication/",
+    "category": "social"
+  },
+  {
+    "name": "Zocle",
+    "url": "https://zocle.com/",
+    "img": "zocle.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://university.zocle.com/2015/03/30/new-security-feature-two-step-verification/",
     "category": "social"
   },
   {
