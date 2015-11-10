@@ -373,7 +373,6 @@
     "twitter": "cibc",
     "img": "cibc.png",
     "tfa": "No",
-    "status": "https://www.cibc.com/ca/features/banking-enhancements.html?sf3204759=1",
     "category": "banking"
   },
   {
@@ -1151,7 +1150,7 @@
     "sms": "Yes",
     "phone": "Yes",
     "software": "Yes",
-    "doc": "http://msdn.microsoft.com/en-us/library/azure/dn249471.aspx",
+    "doc": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
     "category": "cloud"
   },
   {
@@ -1491,6 +1490,17 @@
     "category": "developer"
   },
   {
+    "name": "CM Telecom",
+    "url": "https://www.cmtelecom.com/",
+    "img": "cmtelecom.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "doc": "https://help.onlinesmsgateway.com/en/accounts-and-payments/how-do-i-enable-two-factor-authentication",
+    "category": "developer"
+  },
+  {
     "name": "Codeanywhere",
     "url": "https://codeanywhere.com",
     "img": "codeanywhere.png",
@@ -1528,6 +1538,14 @@
     "sms": "Yes",
     "software": "Yes",
     "doc": "https://docs.compose.io/security/compose-two-factor-authentication.html",
+    "category": "developer"
+  },
+  {
+    "name": "Deploybot",
+    "url": "http://deploybot.com/",
+    "twitter": "deploybothq",
+    "img": "deploybot.png",
+    "tfa": "No",
     "category": "developer"
   },
   {
@@ -1657,6 +1675,14 @@
     "category": "developer"
   },
   {
+    "name": "Phacility",
+    "url": "https://phacility.com/",
+    "img": "phacility.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "category": "developer"
+  },
+  {
     "name": "Pivotal Tracker",
     "url": "https://www.pivotaltracker.com",
     "twitter": "pivotaltracker",
@@ -1720,6 +1746,14 @@
     "url": "https://www.statuspage.io",
     "twitter": "statuspageio",
     "img": "statuspageio.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "Taiga.io",
+    "url": "https://taiga.io",
+    "twitter": "taigaio",
+    "img": "taigaio.png",
     "tfa": "No",
     "category": "developer"
   },
@@ -1942,18 +1976,6 @@
     "twitter": "Fasthosts",
     "img": "fasthosts.png",
     "tfa": "No",
-    "category": "domains"
-  },
-  {
-    "name": "Frankdomains",
-    "url": "https://www.frankdomains.com/",
-    "img": "frankdomains.png",
-    "tfa": "yes",
-    "hardware": "yes",
-    "exceptions": {
-      "text": "Yearly fee for using 2FA: 19.99 GBP"
-    },
-    "doc": "https://www.frankdomains.com/keep-your-domain-safe/",
     "category": "domains"
   },
   {
@@ -2181,8 +2203,11 @@
     "name": "OpenSRS",
     "url": "https://opensrs.com",
     "img": "opensrs.png",
-    "tfa": "No",
+    "tfa": "Yes",
+    "software": "Yes",
+    "sms": "Yes",
     "twitter": "opensrs",
+    "doc": "https://help.opensrs.com/hc/en-us/articles/209618017-Two-Factor-Authentication-2FA-for-Reseller-Account-Access",
     "category": "domains"
   },
   {
@@ -2578,9 +2603,11 @@
   {
     "name": "Twitch",
     "url": "http://www.twitch.tv/",
-    "twitter": "TwitchSupport",
     "img": "twitch.png",
-    "tfa": "No",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "http://blog.twitch.tv/2015/11/two-factor-authentication-now-available-on-your-twitch-account/",
     "category": "entertainment"
   },
   {
@@ -3322,6 +3349,14 @@
     "category": "hosting"
   },
   {
+    "name": "One.com",
+    "url": "https://www.one.com/",
+    "twitter": "onecom",
+    "img": "onecom.png",
+    "tfa": "No",
+    "category": "hosting"
+  },
+  {
     "name": "Online",
     "url": "https://www.online.net/",
     "img": "online.png",
@@ -3968,7 +4003,7 @@
     "software": "Yes",
     "sms": "Yes",
     "phone": "Yes",
-    "doc": "http://technet.microsoft.com/en-us/library/dn383636.aspx",
+    "doc": "https://support.office.com/en-US/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6",
     "category": "other"
   },
   {
@@ -4276,10 +4311,12 @@
   },
   {
     "name": "Amazon",
-    "url": "https://amazon.com",
-    "twitter": "AmazonHelp",
+    "url": "https://www.amazon.com",
     "img": "amazon.png",
-    "tfa": "No",
+    "tfa": "Yes",
+    "software": "Yes",
+    "sms": "Yes",
+    "doc": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201596330",
     "category": "retail"
   },
   {
