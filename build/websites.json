@@ -907,6 +907,17 @@
     "category": "bitcoin"
   },
   {
+    "name": "Coinfloor",
+    "url": "https://www.coinfloor.co.uk/",
+    "img": "coinfloor.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "hardware": "Yes",
+    "doc": "https://www.coinfloor.co.uk/security",
+    "category": "bitcoin"
+  },
+  {
     "name": "Coinify (Merchants)",
     "url": "https://coinify.com/merchants",
     "img": "coinify.png",
@@ -1587,6 +1598,16 @@
     "exceptions": {
       "text": "Two factor authentication for LDAP is only avaliable in the Enterprise Edition."
     },
+    "category": "developer"
+  },
+  {
+    "name": "Hashicorp Atlas",
+    "url": "https://atlas.hashicorp.com/",
+    "img": "hashicorp-atlas.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "sms": "Yes",
+    "doc": "https://atlas.hashicorp.com/help/user-accounts/authentication#two-factor-authentication",
     "category": "developer"
   },
   {
@@ -3479,6 +3500,18 @@
     "category": "identity"
   },
   {
+    "name": "Centrify",
+    "url": "http://www.centrify.com",
+    "img": "centrify.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "email": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "doc": "http://www.centrify.com/products/identity-service/multi-factor-authentication/",
+    "category": "identity"
+  },
+  {
     "name": "Clavid",
     "url": "http://www.clavid.com/",
     "img": "clavid.png",
@@ -4109,6 +4142,15 @@
     "twitter": "todoist",
     "img": "todoist.png",
     "tfa": "No",
+    "category": "other"
+  },
+  {
+    "name": "Cosmolex",
+    "url": "https://www.cosmolex.com/",
+    "img": "cosmolex.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "doc": "http://support.cosmolex.com/customer/portal/articles/2158628",
     "category": "other"
   },
   {
