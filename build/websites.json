@@ -23,8 +23,7 @@
   },
   {
     "name": "Backblaze",
-    "url": "http://www.backblaze.com/",
-    "twitter": "backblaze",
+    "url": "http://www.backblaze.com",
     "img": "backblaze.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -194,9 +193,18 @@
     "category": "backup"
   },
   {
+    "name": "Sync",
+    "url": "https://sync.com",
+    "img": "sync.png",
+    "software": "Yes",
+    "email": "Yes",
+    "tfa": "Yes",
+    "doc": "https://www.sync.com/help/how-do-i-setup-two-factor-authentication/",
+    "category": "backup"
+  },
+  {
     "name": "Synology",
     "url": "https://www.synology.com/",
-    "twitter": "Synology",
     "img": "synology.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -400,7 +408,6 @@
   {
     "name": "everbank.com",
     "url": "https://everbank.com",
-    "twitter": "everbank",
     "img": "everbank.png",
     "tfa": "Yes",
     "phone": "Yes",
@@ -508,7 +515,6 @@
     "img": "natwest.png",
     "tfa": "Yes",
     "hardware": "Yes",
-    "twitter": "NatWest_Help",
     "doc": "http://www.natwest.com/personal/online-banking/g1/banking-safely-online/card-reader.ashx",
     "category": "banking"
   },
@@ -533,7 +539,6 @@
   {
     "name": "Patelco Credit Union",
     "url": "https://www.patelco.org/",
-    "twitter": "PatelcoPays",
     "img": "patelco.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -662,7 +667,6 @@
   {
     "name": "TBC Bank",
     "url": "http://www.tbcbank.ge",
-    "twitter": "JSCTBCBANK",
     "img": "tbcbank.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -709,7 +713,6 @@
     "name": "UW Credit Union",
     "url": "http://www.uwcu.org/",
     "img": "uwcu.png",
-    "twitter": "uwcu",
     "tfa": "Yes",
     "sms": "Yes",
     "software": "Yes",
@@ -842,7 +845,6 @@
   {
     "name": "CampBX",
     "url": "https://campbx.com/",
-    "twitter": "CampBX",
     "img": "campbx.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -862,7 +864,6 @@
   {
     "name": "Circle",
     "url": "https://circle.com",
-    "twitter": "circlebits",
     "img": "circle.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -1067,7 +1068,6 @@
     "tfa": "Yes",
     "software": "Yes",
     "doc": "https://www.datapipe.com/security_compliance/managed_security/two_factor_authentication/",
-    "twitter": "Datapipe",
     "category": "cloud"
   },
   {
@@ -1085,7 +1085,6 @@
   {
     "name": "EngineYard",
     "url": "https://www.engineyard.com",
-    "twitter": "engineyard",
     "img": "engineyard.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -1098,7 +1097,6 @@
   {
     "name": "fortrabbit",
     "url": "http://www.fortrabbit.com/",
-    "twitter": "fortrabbit",
     "img": "fortrabbit.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -1120,7 +1118,6 @@
   {
     "name": "Heroku",
     "url": "https://www.heroku.com/",
-    "twitter": "heroku",
     "img": "heroku.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -1175,7 +1172,6 @@
   {
     "name": "Packet",
     "url": "https://www.packet.net/",
-    "twitter": "packethost",
     "img": "packet.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -1409,7 +1405,6 @@
   {
     "name": "Telegram",
     "url": "https://telegram.org/",
-    "twitter": "telegram",
     "img": "telegram.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -1526,7 +1521,6 @@
   {
     "name": "Code Climate",
     "url": "https://codeclimate.com",
-    "twitter": "codeclimate",
     "img": "codeclimate.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -1571,7 +1565,6 @@
     "name": "Esri",
     "url": "https://www.esri.com",
     "img": "esri.png",
-    "twitter": "esri",
     "tfa": "Yes",
     "software": "Yes",
     "doc": "https://doc.arcgis.com/en/arcgis-online/reference/multifactor.htm",
@@ -1631,7 +1624,6 @@
   {
     "name": "Koding",
     "url": "https://koding.com",
-    "twitter": "koding",
     "img": "koding.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -1662,21 +1654,20 @@
     "name": "Mapbox",
     "url": "https://www.mapbox.com",
     "img": "mapbox.png",
-    "twitter": "mapbox",
     "tfa": "Yes",
     "software": "Yes",
     "doc": "https://www.mapbox.com/help/two-step-verification/",
     "category": "developer"
   },
   {
-    "name": "MongoDB MMS",
-    "url": "https://mms.mongodb.com",
+    "name": "MongoDB Cloud Manager",
+    "url": "https://cloud.mongodb.com",
     "img": "mongodbmms.png",
     "tfa": "Yes",
     "sms": "Yes",
     "software": "Yes",
     "phone": "Yes",
-    "doc": "https://docs.mms.mongodb.com/core/two-factor-authentication/",
+    "doc": "https://docs.cloud.mongodb.com/core/two-factor-authentication/",
     "category": "developer"
   },
   {
@@ -1790,7 +1781,6 @@
   {
     "name": "Unfuddle",
     "url": "https://unfuddle.com/",
-    "twitter": "unfuddle",
     "img": "unfuddle.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -1909,6 +1899,14 @@
     "url": "http://www.df.eu",
     "img": "domainfactory.png",
     "twitter": "domainfactory",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
+    "name": "Domain Monster",
+    "url": "https://www.domainmonster.com/",
+    "img": "domainmonster.png",
+    "twitter": "domainmonster",
     "tfa": "No",
     "category": "domains"
   },
@@ -2053,7 +2051,6 @@
     "img": "hurricane.png",
     "tfa": "Yes",
     "software": "Yes",
-    "twitter": "henet",
     "category": "domains"
   },
   {
@@ -2098,7 +2095,6 @@
   {
     "name": "MarkMonitor",
     "url": "https://www.markmonitor.com",
-    "twitter": "markmonitor",
     "img": "markmonitor.png",
     "tfa": "Yes",
     "hardware": "Yes",
@@ -2227,7 +2223,6 @@
     "tfa": "Yes",
     "software": "Yes",
     "sms": "Yes",
-    "twitter": "opensrs",
     "doc": "https://help.opensrs.com/hc/en-us/articles/209618017-Two-Factor-Authentication-2FA-for-Reseller-Account-Access",
     "category": "domains"
   },
@@ -2261,7 +2256,6 @@
   {
     "name": "Register4Less",
     "url": "https://register4less.com/",
-    "twitter": "register4less",
     "img": "register4less.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -2642,7 +2636,6 @@
   {
     "name": "YouTube",
     "url": "https://www.youtube.com/",
-    "twitter": "youtube",
     "img": "youtube.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -2779,7 +2772,6 @@
   {
     "name": "Pocketsmith",
     "url": "https://www.pocketsmith.com",
-    "twitter": "pocketsmith",
     "img": "pocketsmith.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -2805,7 +2797,6 @@
   {
     "name": "QuickFile",
     "url": "http://www.quickfile.co.uk",
-    "twitter": "quickfile",
     "img": "quickfile.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -2909,7 +2900,6 @@
   {
     "name": "Elder Scrolls Online",
     "url": "http://www.elderscrollsonline.com/",
-    "twitter": "TESOnline",
     "img": "eso.png",
     "tfa": "Yes",
     "email": "Yes",
@@ -2932,7 +2922,6 @@
   {
     "name": "EVE Online",
     "url": "http://www.eveonline.com/",
-    "twitter": "EveOnline",
     "img": "eveonline.png",
     "tfa": "Yes",
     "email": "Yes",
@@ -2946,7 +2935,6 @@
   {
     "name": "Garena Online",
     "url": "http://garena.com",
-    "twitter": "garenaonline",
     "img": "garena.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -3274,7 +3262,6 @@
   {
     "name": "Fastly",
     "url": "https://www.fastly.com",
-    "twitter": "Fastly",
     "img": "fastly.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -3284,7 +3271,6 @@
   {
     "name": "Glesys",
     "url": "http://glesys.com/",
-    "twitter": "glesysab",
     "img": "glesys.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -3393,7 +3379,6 @@
     "tfa": "Yes",
     "sms": "Yes",
     "software": "Yes",
-    "twitter": "ovh_support_en",
     "category": "hosting"
   },
   {
@@ -3438,7 +3423,6 @@
     "img": "speedit.png",
     "tfa": "Yes",
     "software": "Yes",
-    "twitter": "SpeedIT_S",
     "doc": "https://www.speedit.org/faq/#accordian_item_937",
     "category": "hosting"
   },
@@ -3619,6 +3603,16 @@
     "category": "identity"
   },
   {
+    "name": "Passpack",
+    "url": "https://www.passpack.com/",
+    "img": "passpack.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "hardware": "Yes",
+    "doc": "https://help.passpack.com/knowledgebase/idx.php/44/0/",
+    "category": "identity"
+  },
+  {
     "name": "RoboForm",
     "url": "http://www.roboform.com/",
     "img": "roboform.png",
@@ -3667,7 +3661,6 @@
   {
     "name": "Fidelity Investments",
     "url": "https://www.fidelity.com",
-    "twitter": "fidelity",
     "img": "fidelity.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -3730,9 +3723,8 @@
     "name": "OptionsHouse",
     "img": "optionshouse.png",
     "url": "https://www.optionshouse.com",
-    "tfa": "Yes",
-    "software": "Yes",
-    "doc": "https://www.optionshouse.com/faq/authenticator/",
+    "tfa": "No",
+    "twitter": "OptionsHouse",
     "category": "investing"
   },
   {
@@ -3746,7 +3738,6 @@
   {
     "name": "Personal Capital",
     "url": "https://www.personalcapital.com",
-    "twitter": "personalcapital",
     "img": "personalcapital.png",
     "tfa": "Yes",
     "email": "Yes",
@@ -3821,7 +3812,6 @@
   {
     "name": "Vanguard",
     "url": "https://www.vanguard.com/",
-    "twitter": "Vanguard_Group",
     "img": "vanguard.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -3831,9 +3821,11 @@
   {
     "name": "Wealthfront",
     "url": "https://www.wealthfront.com/",
-    "twitter": "wealthfront",
     "img": "wealthfront.png",
-    "tfa": "no",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://pages.wealthfront.com/faqs/how-do-i-enable-two-step-authentication-on-my-account/",
     "category": "investing"
   },
   {
@@ -3975,7 +3967,6 @@
   {
     "name": "Formstack",
     "url": "https://www.formstack.com/",
-    "twitter": "formstack",
     "img": "formstack.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -3996,7 +3987,6 @@
     "name": "Kickstarter",
     "url": "https://www.kickstarter.com",
     "img": "kickstarter.png",
-    "twitter": "kickstarter",
     "tfa": "Yes",
     "sms": "Yes",
     "phone": "Yes",
@@ -4025,7 +4015,6 @@
     "tfa": "Yes",
     "sms": "Yes",
     "software": "Yes",
-    "twitter": "mixpanel",
     "category": "other"
   },
   {
@@ -4093,7 +4082,6 @@
   {
     "name": "Zendesk",
     "url": "http://www.zendesk.com",
-    "twitter": "Zendesk",
     "img": "zendesk.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -4112,7 +4100,6 @@
   {
     "name": "PhraseApp",
     "url": "https://phraseapp.com",
-    "twitter": "PhraseApp",
     "img": "phraseapp.png",
     "software": "Yes",
     "tfa": "Yes",
@@ -4187,7 +4174,6 @@
   {
     "name": "Dwolla",
     "url": "https://www.dwolla.com",
-    "twitter": "dwolla",
     "img": "dwolla.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -4283,7 +4269,6 @@
   {
     "name": "Square",
     "url": "https://squareup.com",
-    "twitter": "square",
     "img": "squareup.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -4479,7 +4464,6 @@
   {
     "name": "CAcert",
     "url": "http://www.cacert.org/",
-    "twitter": "CAcert_News",
     "img": "cacert.png",
     "tfa": "Yes",
     "hardware": "Yes",
@@ -4491,7 +4475,6 @@
   {
     "name": "DigiCert",
     "url": "http://www.digicert.com/",
-    "twitter": "digicert",
     "img": "digicert.png",
     "tfa": "Yes",
     "software": "Yes",
@@ -4560,7 +4543,6 @@
     "img": "opendns.png",
     "tfa": "Yes",
     "sms": "Yes",
-    "twitter": "OpenDNS",
     "software": "Yes",
     "exceptions": {
       "text": "Only available for enterprise accounts."
@@ -4631,7 +4613,6 @@
   {
     "name": "Bitly",
     "url": "https://bitly.com/",
-    "twitter": "bitly",
     "img": "bitly.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -4704,7 +4685,6 @@
   {
     "name": "LinkedIn",
     "url": "https://linkedin.com",
-    "twitter": "LinkedIn",
     "img": "linkedin.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -4722,7 +4702,6 @@
   {
     "name": "Snapchat",
     "url": "https://www.snapchat.com/",
-    "twitter": "Snapchat",
     "img": "snapchat.png",
     "tfa": "Yes",
     "sms": "Yes",
@@ -4959,6 +4938,16 @@
     "img": "timewarner.png",
     "tfa": "No",
     "twitter": "TWC_Help",
+    "category": "utilities"
+  },
+  {
+    "name": "Ting",
+    "url": "https://ting.com/",
+    "img": "ting.png",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "software": "Yes",
+    "doc": "https://help.ting.com/hc/en-us/articles/209351258-Two-Factor-Authentication",
     "category": "utilities"
   },
   {
