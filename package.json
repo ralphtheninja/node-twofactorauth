@@ -1,6 +1,6 @@
 {
   "name": "twofactorauth",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Tool for exposing the _data folder from https://github.com/2factorauth/twofactorauth",
   "main": "index.js",
   "files": [
