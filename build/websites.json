@@ -320,7 +320,10 @@
     "name": "Barclays US",
     "url": "https://www.banking.barclaysus.com/index.html",
     "img": "barclays.png",
-    "tfa": "No",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "email": "Yes",
     "twitter": "Barclays",
     "category": "banking"
   },
@@ -2357,6 +2360,14 @@
     "category": "education"
   },
   {
+    "name": "Robert Morris University",
+    "url": "https://sentry.rmu.edu/login",
+    "twitter": "rmu",
+    "img": "rmu.png",
+    "tfa": "No",
+    "category": "education"
+  },
+  {
     "name": "SchoolSoft",
     "url": "http://schoolsoft.se/",
     "img": "schoolsoft.png",
@@ -3409,6 +3420,14 @@
     "category": "hosting"
   },
   {
+    "name": "Site5",
+    "url": "http://www.site5.com/",
+    "twitter": "site5",
+    "img": "site5.png",
+    "tfa": "No",
+    "category": "hosting"
+  },
+  {
     "name": "Softlayer",
     "url": "https://www.softlayer.com",
     "img": "softlayer.png",
@@ -4343,6 +4362,9 @@
     "tfa": "Yes",
     "software": "Yes",
     "sms": "Yes",
+    "exceptions": {
+      "text": "SMS/Phone Call required for 2FA"
+    },
     "doc": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201596330",
     "category": "retail"
   },
@@ -4640,7 +4662,7 @@
     "sms": "Yes",
     "software": "Yes",
     "exceptions": {
-      "text": "SMS required for 2FA. 1 account per phone number, 1 phone number per account."
+      "text": "SMS required for 2FA. 1 account per phone number."
     },
     "doc": "https://www.facebook.com/help/148233965247823",
     "category": "social"
