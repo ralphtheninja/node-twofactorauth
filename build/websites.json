@@ -732,6 +732,14 @@
     "category": "banking"
   },
   {
+    "name": "Wescom Credit Union",
+    "url": "https://www.wescom.org/",
+    "twitter": "Liz_Wescom",
+    "img": "wescom.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
     "name": "Zag Bank",
     "url": "https://www.zagbank.ca/",
     "twitter": "zagbank",
@@ -2860,6 +2868,9 @@
     "url": "https://www.xero.com/",
     "twitter": "Xero",
     "img": "xero.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://help.xero.com/nz/MyXero_Two-Step_About",
     "category": "finance"
   },
   {
@@ -3262,6 +3273,15 @@
     "category": "hosting"
   },
   {
+    "name": "cyon",
+    "url": "https://www.cyon.ch",
+    "img": "cyon.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://www.cyon.ch/support/a/225/wie-aktiviere-ich-die-zwei-schritt-verifizierung",
+    "category": "hosting"
+  },
+  {
     "name": "Dreamhost",
     "url": "https://dreamhost.com",
     "img": "dreamhost.png",
@@ -3637,6 +3657,8 @@
     "img": "roboform.png",
     "tfa": "Yes",
     "email": "Yes",
+    "sms": "Yes",
+    "doc": "http://www.roboform.com/blog/stay-protected-with-mulitfactor-authentication",
     "category": "identity"
   },
   {
