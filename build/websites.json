@@ -225,6 +225,15 @@
     "category": "backup"
   },
   {
+    "name": "XXL Cloud",
+    "url": "https://xxlcloud.com",
+    "twitter": "xxlcloud",
+    "img": "xxlcloud.png",
+    "tfa": "No",
+    "status": "https://xxlcloud.com/en/blog/2factorauthentication",
+    "category": "backup"
+  },
+  {
     "name": "Yandex.Disk",
     "url": "https://disk.yandex.com",
     "img": "yandexdisk.png",
@@ -473,6 +482,14 @@
     "category": "banking"
   },
   {
+    "name": "Huntington National Bank",
+    "url": "https://www.huntington.com",
+    "twitter": "Huntington_Bank",
+    "img": "huntingtonnationalbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
     "name": "Intesa Sanpaolo",
     "url": "https://www.intesasanpaolo.com",
     "img": "intesasanpaolo.png",
@@ -617,6 +634,14 @@
     "category": "banking"
   },
   {
+    "name": "SchoolsFirst FCU",
+    "url": "https://www.schoolsfirstfcu.org/",
+    "twitter": "SchoolsFirstFCU",
+    "img": "schoolsfirst.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
     "name": "SEB",
     "url": "http://www.seb.se/pow/default.asp",
     "img": "seb.png",
@@ -690,6 +715,14 @@
     "url": "https://www.tdcanadatrust.com",
     "twitter": "TD_Canada",
     "img": "tdbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "Union Bank",
+    "url": "https://www.unionbank.com/",
+    "twitter": "UnionBank",
+    "img": "unionbank.png",
     "tfa": "No",
     "category": "banking"
   },
@@ -1136,14 +1169,6 @@
     "category": "cloud"
   },
   {
-    "name": "HP Cloud",
-    "url": "https://www.hpcloud.com/",
-    "twitter": "hpcloud",
-    "img": "hp.png",
-    "tfa": "No",
-    "category": "cloud"
-  },
-  {
     "name": "Joyent",
     "url": "http://www.joyent.com/",
     "img": "joyent.png",
@@ -1495,6 +1520,15 @@
     "category": "developer"
   },
   {
+    "name": "Bugsnag",
+    "url": "https://bugsnag.com",
+    "img": "bugsnag.png",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://bugsnag.com/blog/two-factor-authentication",
+    "category": "developer"
+  },
+  {
     "name": "Cloud9",
     "url": "https://c9.io",
     "twitter": "Cloud9IDE",
@@ -1646,6 +1680,7 @@
     "url": "https://launchpad.net",
     "img": "launchpad.png",
     "tfa": "Yes",
+    "hardware": "Yes",
     "software": "Yes",
     "doc": "https://help.ubuntu.com/community/SSO/FAQs/2FA",
     "category": "developer"
@@ -2274,6 +2309,14 @@
     "category": "domains"
   },
   {
+    "name": "STRATO",
+    "url": "https://www.strato.de/",
+    "twitter": "STRATO_AG",
+    "img": "strato.png",
+    "tfa": "No",
+    "category": "domains"
+  },
+  {
     "name": "Verio",
     "url": "https://www.verio.com/",
     "twitter": "Verio",
@@ -2401,9 +2444,14 @@
   {
     "name": "Aol Mail",
     "url": "https://mail.aol.com",
-    "twitter": "aol",
     "img": "aol.png",
-    "tfa": "No",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "exceptions": {
+      "text": "Currently U.S. only. International support coming soon."
+    },
+    "doc": "https://help.aol.com/articles/2-factor-authentication-stronger-than-your-password-alone",
     "category": "email"
   },
   {
@@ -2878,6 +2926,14 @@
     "url": "https://yodleemoneycenter.com/",
     "twitter": "Yodlee",
     "img": "yodlee.png",
+    "tfa": "no",
+    "category": "finance"
+  },
+  {
+    "name": "You Need A Budget (YNAB)",
+    "url": "https://www.youneedabudget.com/",
+    "twitter": "ynab",
+    "img": "ynab.png",
     "tfa": "no",
     "category": "finance"
   },
@@ -3498,7 +3554,9 @@
     "url": "https://www.webfaction.com",
     "twitter": "webfaction",
     "img": "webfaction.png",
-    "tfa": "No",
+    "tfa": "Yes",
+    "software": "Yes",
+    "doc": "https://docs.webfaction.com/user-guide/control_panel.html#two-step-login",
     "category": "hosting"
   },
   {
@@ -3590,15 +3648,6 @@
     "software": "Yes",
     "hardware": "Yes",
     "doc": "https://helpdesk.lastpass.com/security-options/multifactor-authentication-options/",
-    "category": "identity"
-  },
-  {
-    "name": "Mitro",
-    "url": "https://www.mitro.co/",
-    "img": "mitro.png",
-    "tfa": "Yes",
-    "software": "Yes",
-    "doc": "https://www.mitro.co/secure.html",
     "category": "identity"
   },
   {
@@ -3815,6 +3864,14 @@
     "url": "https://www.sharebuilder.com/",
     "twitter": "sharebuilder",
     "img": "sharebuilder.png",
+    "tfa": "No",
+    "category": "investing"
+  },
+  {
+    "name": "SigFig",
+    "url": "https://www.sigfig.com/",
+    "twitter": "sigfiginsights",
+    "img": "sigfig.png",
     "tfa": "No",
     "category": "investing"
   },
@@ -4777,7 +4834,7 @@
     "tfa": "Yes",
     "sms": "Yes",
     "exceptions": {
-      "text": "SMS only available on select providers. SMS required for 2FA. 1 account per phone number, 1 phone number per account."
+      "text": "SMS only available on select providers. SMS required for 2FA. 10 accounts per phone number, 1 phone number per account."
     },
     "software": "Yes",
     "doc": "https://support.twitter.com/articles/20170388",
