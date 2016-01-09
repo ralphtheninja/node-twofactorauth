@@ -114,6 +114,14 @@
     "category": "backup"
   },
   {
+    "name": "hubiC",
+    "url": "https://hubic.com/",
+    "twitter": "hubic",
+    "img": "hubic.png",
+    "tfa": "No",
+    "category": "backup"
+  },
+  {
     "name": "IDrive",
     "url": "https://www.idrive.com",
     "twitter": "IDriveBackup",
@@ -400,6 +408,14 @@
     "url": "https://online.citibank.com/US/Welcome.c",
     "twitter": "Citibank",
     "img": "citibank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
+    "name": "comdirect",
+    "url": "https://www.comdirect.de/",
+    "twitter": "comdirect",
+    "img": "comdirect.png",
     "tfa": "No",
     "category": "banking"
   },
@@ -2854,11 +2870,23 @@
     "category": "finance"
   },
   {
+    "name": "Progressive",
+    "url": "https://www.progressive.com",
+    "twitter": "progressive",
+    "img": "progressive.png",
+    "tfa": "No",
+    "category": "finance"
+  },
+  {
     "name": "Quickbooks Online",
     "url": "http://www.quickbooks.com",
     "twitter": "quickbooks",
     "img": "quickbooks.png",
-    "tfa": "No",
+    "tfa": "Yes",
+    "sms": "Yes",
+    "phone": "Yes",
+    "software": "Yes",
+    "doc": "https://community.intuit.com/articles/1164912-multi-factor-authentication-faq",
     "category": "finance"
   },
   {
@@ -3205,6 +3233,14 @@
     "url": "http://www.23andme.com",
     "twitter": "23andMe",
     "img": "23andme.png",
+    "tfa": "No",
+    "category": "health"
+  },
+  {
+    "name": "CVS/Caremark",
+    "url": "https://www.caremark.com",
+    "twitter": "cvshealth",
+    "img": "cvscaremark.png",
     "tfa": "No",
     "category": "health"
   },
@@ -3755,6 +3791,9 @@
     "tfa": "Yes",
     "software": "Yes",
     "hardware": "Yes",
+    "exceptions": {
+      "text": "Only available for some account types"
+    },
     "doc": "/notes/fidelity/",
     "category": "investing"
   },
