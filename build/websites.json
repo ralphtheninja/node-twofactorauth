@@ -412,6 +412,14 @@
     "category": "banking"
   },
   {
+    "name": "Citizens Bank",
+    "url": "https://www.citizensbank.com",
+    "twitter": "citizensbank",
+    "img": "citizensbank.png",
+    "tfa": "No",
+    "category": "banking"
+  },
+  {
     "name": "comdirect",
     "url": "https://www.comdirect.de/",
     "twitter": "comdirect",
@@ -560,6 +568,14 @@
     "img": "navyfederal.png",
     "tfa": "No",
     "twitter": "NavyFederal",
+    "category": "banking"
+  },
+  {
+    "name": "Nordnet",
+    "url": "https://www.nordnet.fi/",
+    "img": "nordnet.png",
+    "tfa": "No",
+    "twitter": "nordnetFI",
     "category": "banking"
   },
   {
@@ -1339,6 +1355,14 @@
     "category": "communication"
   },
   {
+    "name": "Flowdock",
+    "url": "https://www.flowdock.com",
+    "twitter": "flowdock",
+    "img": "flowdock.png",
+    "tfa": "No",
+    "category": "communication"
+  },
+  {
     "name": "HipChat",
     "url": "https://www.hipchat.com",
     "twitter": "HipChat",
@@ -1761,6 +1785,14 @@
     "url": "https://www.pivotaltracker.com",
     "twitter": "pivotaltracker",
     "img": "pivotaltracker.png",
+    "tfa": "No",
+    "category": "developer"
+  },
+  {
+    "name": "Plivo",
+    "url": "https://www.plivo.com",
+    "twitter": "plivo",
+    "img": "plivo.png",
     "tfa": "No",
     "category": "developer"
   },
@@ -2530,6 +2562,14 @@
     "category": "email"
   },
   {
+    "name": "Mailstache",
+    "url": "https://mailstache.io",
+    "twitter": "mailstache",
+    "img": "mailstache.png",
+    "tfa": "No",
+    "category": "email"
+  },
+  {
     "name": "Outlook.com",
     "url": "https://outlook.com",
     "img": "outlook.png",
@@ -3225,7 +3265,7 @@
     "img": "wildstar.png",
     "tfa": "Yes",
     "software": "Yes",
-    "doc": "https://support.wildstar-online.com/entries/53257786-Two-Step-Verification-Setting-Up-and-Rewards",
+    "doc": "https://support.wildstar-online.com/hc/en-us/articles/203982369-Two-Step-Verification-FAQ",
     "category": "gaming"
   },
   {
@@ -4084,6 +4124,15 @@
     "category": "other"
   },
   {
+    "name": "Everlaw",
+    "url": "https://everlaw.com",
+    "img": "everlaw.png",
+    "tfa": "Yes",
+    "email": "Yes",
+    "doc": "https://everlaw.zendesk.com/hc/en-us/articles/206312165-Two-Factor-Authentication",
+    "category": "other"
+  },
+  {
     "name": "fruux",
     "url": "https://fruux.com",
     "img": "fruux.png",
@@ -4152,6 +4201,14 @@
     "tfa": "Yes",
     "sms": "Yes",
     "software": "Yes",
+    "category": "other"
+  },
+  {
+    "name": "Nest",
+    "url": "https://nest.com",
+    "twitter": "nestsupport",
+    "img": "nest.png",
+    "tfa": "No",
     "category": "other"
   },
   {
